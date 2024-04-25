@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class LightFlickering : MonoBehaviour
 {
     public Light light;
     public float minTime;
