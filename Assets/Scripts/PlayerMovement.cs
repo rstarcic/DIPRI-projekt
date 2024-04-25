@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class MovementScript : MonoBehaviour
 {
     private NavMeshAgent agent;
+    public Camera cam1;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +26,13 @@ public class MovementScript : MonoBehaviour
                 agent.SetDestination(hit.point);
             }
         }
+        if(Input.GetMouseButton(0))
+        {
+         cam1.transform.RotateAround(agent.nextPosition, 
+                                         Vector3.up,
+                                         -Input.GetAxis("Mouse X")*10);
+
+         
+        } 
     }
 }
