@@ -7,6 +7,8 @@ using UnityEngine.AI;
 public class Movement : MonoBehaviour
 {
     private NavMeshAgent agent;
+    public Camera PlayerCamera;
+    public DrawerAnimationBehaviour drawerBehaviour;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -14,14 +16,26 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // Left mouse button click
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Drawer") || hit.collider.CompareTag("Drawer1"))
+            {
+                drawerBehaviour.ToggleDrawer();
+            }
+            else
             {
                 agent.SetDestination(hit.point);
+              
             }
+        }
+
+        if (Input.GetMouseButton(1)) // Right mouse button press
+        {
+            PlayerCamera.transform.RotateAround(agent.nextPosition,
+                                                Vector3.up,
+                                                -Input.GetAxis("Mouse X") * 10);
         }
     }
 }
