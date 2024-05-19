@@ -17,6 +17,7 @@ public class InvManager : MonoBehaviour
      public void Add(Item item)
     {
         Items.Add(item);
+        
     }
 
     public void ListItems()

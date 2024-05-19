@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MoveToScene : MonoBehaviour
 {
+   
+
     public void Move(int sceneID)
     {
-        SceneManager.LoadScene(sceneID);
+        SceneManager.LoadScene(sceneID,LoadSceneMode.Single);
+
     }
 }
