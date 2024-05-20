@@ -37,6 +37,7 @@ namespace NavKeypad
         [SerializeField] private Renderer panelMesh;
         [SerializeField] private TMP_Text keypadDisplayText;
         [SerializeField] private AudioSource audioSource;
+        [SerializeField] private SlidingDoor slidingDoor;
 
 
         private string currentInput;
@@ -125,6 +126,7 @@ namespace NavKeypad
             onAccessGranted?.Invoke();
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
+            slidingDoor.ToggleDoor();
         }
 
     }
