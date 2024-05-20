@@ -3854,7 +3854,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3909,8 +3909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695d8362a049246cbb5062f64feed779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inv: {fileID: 1518969348}
-  player: {fileID: 600661389}
 --- !u!1 &884683120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2971177062050971310, guid: a5f15d5f1105e43a797b7aa769560a57, type: 3}

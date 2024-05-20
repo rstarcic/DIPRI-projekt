@@ -4512,8 +4512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695d8362a049246cbb5062f64feed779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inv: {fileID: 0}
-  player: {fileID: 214348744}
 --- !u!114 &1596326079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4565,7 +4563,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
