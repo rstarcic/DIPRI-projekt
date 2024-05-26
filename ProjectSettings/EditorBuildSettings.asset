@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7f61901aa55074b8bae9ca2434044ea4
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/intro2.unity
+    guid: 5b4fd57eeecfe430ab733de4f638baf5
+  - enabled: 1
+    path: Assets/Scenes/Hallway-Entrence.unity
+    guid: df0f97b93574646f8b94d9d5b5db91d9
+  - enabled: 1
+    path: Assets/Scenes/KitchenLivingRoom.unity
+    guid: dadd1c45d3788bd4997c26e38e32ed8e
+  - enabled: 1
+    path: Assets/Scenes/Hallway 2nd floor.unity
+    guid: 60f100b3a67db48ecb87d815cee599d8
+  - enabled: 1
+    path: Assets/Scenes/Son's-Room.unity
+    guid: a5907ffdd862e4143b6b39b754f36452
+  - enabled: 1
+    path: Assets/Scenes/KcerSoba.unity
+    guid: 3e90a771d022146958c2cdb7fc6d17d3
+  - enabled: 1
+    path: Assets/Scenes/parent's-room.unity
+    guid: fa3dff3f8d4dd474aa53466bc1ca9a2f
+  - enabled: 1
+    path: Assets/Scenes/WC.unity
+    guid: 11439799c08f741499aeb7359a511598
   m_configObjects: {}
