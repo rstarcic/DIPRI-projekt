@@ -39,10 +39,11 @@ namespace NavKeypad
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private SlidingDoor slidingDoor;
 
-
         private string currentInput;
         private bool displayingResult = false;
         private bool accessWasGranted = false;
+
+
 
         private void Awake()
         {

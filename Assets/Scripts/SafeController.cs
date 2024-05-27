@@ -32,8 +32,7 @@ public class SafeController : MonoBehaviour
                 if (hit.collider.CompareTag("Keypad"))
                 {
                     Debug.LogWarning("Keypad clicked.");
-                    cameraController.keypadTransform = hit.collider.transform;
-                    cameraController.StartZooming();
+                    cameraController.StartZooming(hit.collider.transform);
                 }
                 else
                 {
@@ -45,7 +44,6 @@ public class SafeController : MonoBehaviour
     public void OnSafeClicked()
     {
         keypad.SetActive(true);
-        cameraController.StartZooming();
     }
 
     public void OnNumberButtonPressed(string number)
@@ -77,7 +75,7 @@ public class SafeController : MonoBehaviour
 
     public void OpenSafe()
     {
-        keypad.SetActive(false);
+        keypad.SetActive(true);
         safeAnimator.SetBool("isOpen", true);
         cameraController.ResetCamera();
     }
