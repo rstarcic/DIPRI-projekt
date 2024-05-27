@@ -32,7 +32,7 @@ public class SafeController : MonoBehaviour
                 if (hit.collider.CompareTag("Keypad"))
                 {
                     Debug.LogWarning("Keypad clicked.");
-                    cameraController.StartZooming(hit.collider.transform);
+                    // cameraController.StartZooming(hit.collider.transform);
                 }
                 else
                 {
