@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class DisplayDiary : MonoBehaviour
 {
 
-    public GameObject diaryPages;
+    public Image diaryImage;
+    public List<Sprite> diaryPages;
     public GameObject diaryCanvas;
     public Button previousButton; 
     public Button nextButton;
@@ -15,7 +16,10 @@ public class DisplayDiary : MonoBehaviour
 
     void Start()
     {
-        ShowPage(currentPageIndex);
+        if (diaryPages.Count > 0)
+        {
+            ShowPage(currentPageIndex);
+        }
         previousButton.onClick.AddListener(ShowPreviousPage);
         nextButton.onClick.AddListener(ShowNextPage);
     }
@@ -24,23 +28,23 @@ public class DisplayDiary : MonoBehaviour
     {
         currentPageIndex--;
         if (currentPageIndex < 0)
-            currentPageIndex = diaryPages.transform.childCount - 1; 
+            currentPageIndex = diaryPages.Count - 1; 
         ShowPage(currentPageIndex);
     }
 
     void ShowNextPage()
     {
         currentPageIndex++;
-        if (currentPageIndex >= diaryPages.transform.childCount)
+        if (currentPageIndex >= diaryPages.Count)
             currentPageIndex = 0; 
         ShowPage(currentPageIndex);
     }
 
     public void ShowPage(int index)
     {
-        for (int i = 0; i < diaryPages.transform.childCount; i++)
+        if (index >= 0 && index < diaryPages.Count)
         {
-            diaryPages.transform.GetChild(i).gameObject.SetActive(i == index);
+            diaryImage.sprite = diaryPages[index];
         }
     }
 }
