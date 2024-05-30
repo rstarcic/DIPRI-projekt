@@ -15,7 +15,7 @@ public class MovementLivingRoom : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)) // Left mouse button click
+        if (Input.GetMouseButtonDown(1)) // Right mouse button click
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -30,7 +30,7 @@ public class MovementLivingRoom : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(0)) // Right mouse button press
+        if (Input.GetMouseButton(0)) // Left mouse button press
         {
             PlayerCamera.transform.RotateAround(agent.nextPosition,
                                                 Vector3.up,

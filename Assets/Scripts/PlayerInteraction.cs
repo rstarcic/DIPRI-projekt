@@ -8,7 +8,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(1)) // right button 
         {
             Ray ray = PlayerCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;

@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button click
+        if (Input.GetMouseButtonDown(1)) // Right mouse button click
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(1)) // Right mouse button press
+        if (Input.GetMouseButton(0)) // Left mouse button press
         {
             PlayerCamera.transform.RotateAround(agent.nextPosition,
                                                 Vector3.up,

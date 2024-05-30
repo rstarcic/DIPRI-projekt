@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Drawer
   - Drawer1
+  - Keypad
+  - Safe
+  - Diary
   layers:
   - Default
   - TransparentFX

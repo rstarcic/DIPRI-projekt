@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15680334, g: 0.07946313, b: 0.08041834, a: 1}
+  m_IndirectSpecularColor: {r: 0.1569762, g: 0.07929192, b: 0.08068607, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4320,10 +4320,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.3
-  m_Speed: 3.7
+  m_Speed: 2
   m_Acceleration: 10
   avoidancePriority: 50
-  m_AngularSpeed: 25
+  m_AngularSpeed: 0
   m_StoppingDistance: 0.05
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -6463,7 +6463,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 25323e193fae1dc4e9ba8c9f9a0b0921, type: 2}
+  - {fileID: 2100000, guid: 80ad103d15646de42a76039a4cb60b86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
