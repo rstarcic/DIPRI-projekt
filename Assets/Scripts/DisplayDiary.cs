@@ -11,6 +11,7 @@ public class DisplayDiary : MonoBehaviour
     public GameObject diaryCanvas;
     public Button previousButton; 
     public Button nextButton;
+    public Button closeButton;
 
     private int currentPageIndex = 0;
 
@@ -22,6 +23,7 @@ public class DisplayDiary : MonoBehaviour
         }
         previousButton.onClick.AddListener(ShowPreviousPage);
         nextButton.onClick.AddListener(ShowNextPage);
+        closeButton.onClick.AddListener(CloseDiary);
     }
 
     void ShowPreviousPage()
@@ -46,5 +48,9 @@ public class DisplayDiary : MonoBehaviour
         {
             diaryImage.sprite = diaryPages[index];
         }
+    }
+    public void CloseDiary()
+    {
+        diaryCanvas.SetActive(false);
     }
 }

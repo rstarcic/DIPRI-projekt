@@ -4,18 +4,21 @@ using UnityEngine.UI;
 
 public class SafeController : MonoBehaviour
 {
-    public string correctCode = "270523";
+    public string correctCode = "210523";
     private string currentInput = "";
 
     public TMP_Text displayText;  
     public Animator safeAnimator;
     public GameObject keypad;
     public GameObject safe;
-    public CameraController cameraController;
+ 
+    public Camera mainCamera;
+    public Camera zoomCamera;
+
 
     void Start()
     {
-        cameraController = Camera.main.GetComponent<CameraController>();
+
     }
     void Update()
     {
@@ -32,7 +35,11 @@ public class SafeController : MonoBehaviour
                 if (hit.collider.CompareTag("Keypad"))
                 {
                     Debug.LogWarning("Keypad clicked.");
-                    // cameraController.StartZooming(hit.collider.transform);
+                    if (zoomCamera != null)
+                    {
+                        mainCamera.enabled = false;
+                        zoomCamera.enabled = true;
+                    }
                 }
                 else
                 {
@@ -77,6 +84,5 @@ public class SafeController : MonoBehaviour
     {
         keypad.SetActive(true);
         safeAnimator.SetBool("isOpen", true);
-        cameraController.ResetCamera();
     }
 }
