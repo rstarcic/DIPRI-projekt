@@ -1,0 +1,3057 @@
+﻿{
+    "HS015": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Object": {
+            "HS015": {
+                "Generation": "RL_CC3_Plus",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.457272052764893,
+                                    0.6098760962486267,
+                                    101.4005126953125
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121454119682312,
+                                    0.07485780864953995,
+                                    -0.10690824687480927,
+                                    0.5686709880828857
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.000000238418579,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.457396984100342,
+                                    0.6098746657371521,
+                                    101.40084838867188
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121421337127686,
+                                    -0.0748756006360054,
+                                    0.10693338513374329,
+                                    0.5686686038970947
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    8.443875312805176,
+                                    0.8462311625480652,
+                                    70.74574279785156
+                                ],
+                                "WorldRotationQ": [
+                                    -0.029316378757357599,
+                                    0.7428476214408875,
+                                    -0.6680235266685486,
+                                    -0.032596781849861148
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 7.471282482147217,
+                                "Capsule Length": 42.28237533569336
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.529221057891846,
+                                    3.589689254760742,
+                                    27.003446578979493
+                                ],
+                                "WorldRotationQ": [
+                                    -0.007754562422633171,
+                                    0.7098356485366821,
+                                    -0.7042800784111023,
+                                    -0.00792352668941021
+                                ],
+                                "WorldScale": [
+                                    1.0000003576278687,
+                                    1.000000238418579,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.164678573608398,
+                                "Capsule Length": 35.07792663574219
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -8.446032524108887,
+                                    0.8400067687034607,
+                                    70.74480438232422
+                                ],
+                                "WorldRotationQ": [
+                                    0.029307935386896135,
+                                    0.7427935600280762,
+                                    -0.6680842638015747,
+                                    0.03259134665131569
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999999403953552,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 7.43878173828125,
+                                "Capsule Length": 42.34204864501953
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -7.525700569152832,
+                                    3.5647199153900148,
+                                    27.002456665039064
+                                ],
+                                "WorldRotationQ": [
+                                    0.007759586907923222,
+                                    0.7098449468612671,
+                                    -0.704270601272583,
+                                    0.00792835932224989
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999999403953552,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 6.154088020324707,
+                                "Capsule Length": 35.09910583496094
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.00015068938955664635,
+                                    0.19494818150997163,
+                                    123.42143249511719
+                                ],
+                                "WorldRotationQ": [
+                                    0.44509702920913699,
+                                    0.5494455695152283,
+                                    0.44509485363960268,
+                                    0.5494440197944641
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999999403953552,
+                                    1.0
+                                ],
+                                "Radius": 12.7628173828125,
+                                "Capsule Length": 6.1754150390625
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0004250817291904241,
+                                    4.726698398590088,
+                                    147.5205841064453
+                                ],
+                                "WorldRotationQ": [
+                                    0.7834540605545044,
+                                    -0.0000359557852789294,
+                                    0.000027335692720953376,
+                                    0.6214497089385986
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 5.2611188888549809,
+                                "Capsule Length": 5.305224418640137
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.003894113702699542,
+                                    4.515097141265869,
+                                    134.7935028076172
+                                ],
+                                "WorldRotationQ": [
+                                    0.5539663434028626,
+                                    0.4394058287143707,
+                                    0.5540050268173218,
+                                    0.4394567012786865
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 10.77539348602295,
+                                "Capsule Length": 7.844635009765625
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.997241973876953,
+                                    -0.5145763754844666,
+                                    131.01882934570313
+                                ],
+                                "WorldRotationQ": [
+                                    0.26083192229270937,
+                                    0.6572083830833435,
+                                    0.2608399987220764,
+                                    0.6572718620300293
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.25990104675293,
+                                "Capsule Length": 13.24941635131836
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.002746105194092,
+                                    -0.5144743323326111,
+                                    131.01995849609376
+                                ],
+                                "WorldRotationQ": [
+                                    0.26083192229270937,
+                                    0.6572083830833435,
+                                    0.2608399987220764,
+                                    0.6572718620300293
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.25990104675293,
+                                "Capsule Length": 13.24941635131836
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0001448828843422234,
+                                    0.3211379051208496,
+                                    159.6846466064453
+                                ],
+                                "WorldRotationQ": [
+                                    0.7070176005363464,
+                                    -8.691426955920178e-7,
+                                    -0.0000011500950449772063,
+                                    0.7071959972381592
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999999403953552,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.26069450378418,
+                                "Capsule Length": 7.808662414550781
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    26.24227523803711,
+                                    7.39406156539917,
+                                    139.1663055419922
+                                ],
+                                "WorldRotationQ": [
+                                    0.5005075931549072,
+                                    0.5008522868156433,
+                                    -0.4964481294155121,
+                                    0.5021736025810242
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 5.045426845550537,
+                                "Capsule Length": 22.943687438964845
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    56.489959716796878,
+                                    7.005876541137695,
+                                    140.56739807128907
+                                ],
+                                "WorldRotationQ": [
+                                    0.4997609555721283,
+                                    0.5015690922737122,
+                                    -0.49734625220298769,
+                                    0.5013124346733093
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.000000238418579,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 4.368337631225586,
+                                "Capsule Length": 21.781394958496095
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    73.88734436035156,
+                                    5.847484588623047,
+                                    140.3071746826172
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4922351837158203,
+                                    -0.5057826042175293,
+                                    0.5125958919525147,
+                                    -0.48901328444480898
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Extent": [
+                                    4.522909164428711,
+                                    9.57201862335205,
+                                    8.070646286010743
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -26.249834060668947,
+                                    7.3937578201293949,
+                                    139.1668701171875
+                                ],
+                                "WorldRotationQ": [
+                                    0.5005101561546326,
+                                    -0.5008558034896851,
+                                    0.4964374601840973,
+                                    0.5021782517433167
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 5.045186996459961,
+                                "Capsule Length": 22.957782745361329
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -56.483299255371097,
+                                    7.005333423614502,
+                                    140.5687255859375
+                                ],
+                                "WorldRotationQ": [
+                                    0.4997628629207611,
+                                    -0.5015729665756226,
+                                    0.49733784794807436,
+                                    0.5013149976730347
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999999403953552,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 4.368196964263916,
+                                "Capsule Length": 21.766502380371095
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -73.90389251708985,
+                                    6.114038467407227,
+                                    140.2845001220703
+                                ],
+                                "WorldRotationQ": [
+                                    0.49223318696022036,
+                                    -0.505790114402771,
+                                    0.5125887989997864,
+                                    0.4890149235725403
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0,
+                                    1.000000238418579
+                                ],
+                                "Extent": [
+                                    5.314797401428223,
+                                    9.573325157165528,
+                                    8.195561408996582
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Base_Tongue": {
+                        "Materials": {
+                            "Std_Tongue_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Tongue_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Tongue_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTongue",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_GradAO.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 4.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "_Brightness": 1.0,
+                                        "_Desaturation": 0.05000000074505806,
+                                        "Front Roughness": 1.0,
+                                        "Front Specular": 0.2590000033378601,
+                                        "Back Roughness": 1.0,
+                                        "Back Specular": 0.0,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "_Scatter": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Body": {
+                        "Materials": {
+                            "Std_Skin_Head_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Head_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Head_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLHead",
+                                    "Image": {
+                                        "Specular Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_SpecMask.jpg"
+                                        },
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_TransMap.png"
+                                        },
+                                        "Mouth Cavity Mask and AO": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_MNAOMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "Cheek Fore UpperLip Chin Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_CFULCMask.tga"
+                                        },
+                                        "Ear Neck Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_ENMask.tga"
+                                        },
+                                        "Nose Mouth UpperInnerLid Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_NMUILMask.tga"
+                                        },
+                                        "BaseColor Blend2": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_BCBMap.jpg"
+                                        },
+                                        "NormalMap Blend": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_NBMap.jpg"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Head_Pbr/Std_Skin_Head_Pbr_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BaseColor Blend2 Strength": 0.0,
+                                        "NormalMap Blend Strength": 0.0,
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "Nose Roughness Scale": 0.11900000274181366,
+                                        "Mouth Roughness Scale": 0.03400000184774399,
+                                        "UpperLid Roughness Scale": -0.30000001192092898,
+                                        "InnerLid Roughness Scale": -0.5740000009536743,
+                                        "Ear Roughness Scale": 0.0,
+                                        "Neck Roughness Scale": 0.0,
+                                        "Cheek Roughness Scale": 0.0,
+                                        "Forehead Roughness Scale": 0.0,
+                                        "UpperLip Roughness Scale": 0.0,
+                                        "Chin Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "Inner Mouth Ao": 2.5,
+                                        "Nostril Ao": 2.5,
+                                        "Lips Gap Ao": 2.5,
+                                        "Nose Scatter Scale": 1.0,
+                                        "Mouth Scatter Scale": 1.0,
+                                        "UpperLid Scatter Scale": 1.0,
+                                        "InnerLid Scatter Scale": 1.0,
+                                        "Ear Scatter Scale": 1.0,
+                                        "Neck Scatter Scale": 1.0,
+                                        "Cheek Scatter Scale": 1.0,
+                                        "Forehead Scatter Scale": 1.0,
+                                        "UpperLip Scatter Scale": 1.0,
+                                        "Chin Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Body_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Body_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Body_Pbr/Std_Skin_Body_Pbr_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Arm_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Arm_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Arm_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Arm_Pbr/Std_Skin_Arm_Pbr_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Leg_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Leg_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Skin_Leg_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Skin_Leg_Pbr/Std_Skin_Leg_Pbr_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Nails_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Nails_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Nails_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Tongue/Std_Tongue_Pbr/Std_Tongue_Pbr_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Nails_Pbr/Std_Nails_Pbr_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eyelash_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Eyelash_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Eyelash_Pbr/Std_Eyelash_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Eyelash_Pbr/Std_Eyelash_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/HS015/CC_Base_Body/Std_Eyelash_Pbr/Std_Eyelash_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_R_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_L_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Upper_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Upper_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Lower_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Std_Lower_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/HS015/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_EyeOcclusion": {
+                        "Materials": {
+                            "Std_Eye_Occlusion_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_Occlusion_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_Occlusion_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R_Pbr/Std_Eye_Occlusion_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R_Pbr/Std_Eye_Occlusion_R_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            },
+                            "Std_Eye_Occlusion_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_Occlusion_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Eye_Occlusion_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L_Pbr/Std_Eye_Occlusion_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L_Pbr/Std_Eye_Occlusion_L_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_TearLine": {
+                        "Materials": {
+                            "Std_Tearline_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Tearline_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Tearline_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R_Pbr/Std_Tearline_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R_Pbr/Std_Tearline_R_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 0.9656074643135071
+                                    }
+                                }
+                            },
+                            "Std_Tearline_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Std_Tearline_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Std_Tearline_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L_Pbr/Std_Tearline_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L_Pbr/Std_Tearline_L_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 0.9656074643135071
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Underwear_Bottoms": {
+                        "Materials": {
+                            "Underwear_Bottoms_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    149.0,
+                                    149.0,
+                                    149.0
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Underwear_Bottoms_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Glow": {
+                                        "Texture Path": "./textures/HS015/Underwear_Bottoms/Underwear_Bottoms/Underwear_Bottoms_Pbr/Underwear_Bottoms_Pbr_Glow.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Underwear_Bottoms_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/Underwear_Bottoms/Underwear_Bottoms/Underwear_Bottoms_Pbr/Underwear_Bottoms_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/Underwear_Bottoms/Underwear_Bottoms/Underwear_Bottoms_Pbr/Underwear_Bottoms_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/Underwear_Bottoms/Underwear_Bottoms/Underwear_Bottoms_Pbr/Underwear_Bottoms_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Spaghetti_strap_Top": {
+                        "Materials": {
+                            "Camisole_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    128.0,
+                                    128.0,
+                                    128.0
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Camisole_Pbr_Diffuse.png",
+                                        "Strength": 69.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/Camisole_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Camisole_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/Spaghetti_strap_Top/Spaghetti_strap_Top/Camisole_Pbr/Camisole_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/Spaghetti_strap_Top/Spaghetti_strap_Top/Camisole_Pbr/Camisole_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/Spaghetti_strap_Top/Spaghetti_strap_Top/Camisole_Pbr/Camisole_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Low_rise_Denim_Shorts": {
+                        "Materials": {
+                            "Low_rise_Shorts_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    167.0,
+                                    167.0,
+                                    167.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/Low_rise_Shorts_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./HS015.fbm/Low_rise_Shorts_Pbr_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/HS015/Low_rise_Denim_Shorts/Low_rise_Denim_Shorts/Low_rise_Shorts_Pbr/Low_rise_Shorts_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/HS015/Low_rise_Denim_Shorts/Low_rise_Denim_Shorts/Low_rise_Shorts_Pbr/Low_rise_Shorts_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/HS015/Low_rise_Denim_Shorts/Low_rise_Denim_Shorts/Low_rise_Shorts_Pbr/Low_rise_Shorts_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Haircut": {
+                        "Materials": {
+                            "obj_default_Transparency_Tra": {
+                                "Material Type": "Tra",
+                                "MultiUV Index": 0,
+                                "Node Type": "Hair",
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Ambient Color": [
+                                    51.0,
+                                    51.0,
+                                    51.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Specular": 0.0,
+                                "Glossiness": 0.10000000149011612,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./HS015.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./HS015.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

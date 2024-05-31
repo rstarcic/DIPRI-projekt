@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\Modeli\\modeli\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74351AC3-4824-7113-B13F-FF71247BDC17}|Assembly-CSharp.csproj|d:\\game dev\\modeli\\modeli\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74351AC3-4824-7113-B13F-FF71247BDC17}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74351AC3-4824-7113-B13F-FF71247BDC17}|Assembly-CSharp.csproj|d:\\game dev\\modeli\\modeli\\assets\\scripts\\charactermanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74351AC3-4824-7113-B13F-FF71247BDC17}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterManagment.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Modeli\\modeli\\Assets\\Scripts\\CharacterManagment.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterManagment.cs",
+              "ToolTip": "D:\\Game Dev\\Modeli\\modeli\\Assets\\Scripts\\CharacterManagment.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterManagment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:34:32.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Modeli\\modeli\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
+              "ToolTip": "D:\\Game Dev\\Modeli\\modeli\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:05:33.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

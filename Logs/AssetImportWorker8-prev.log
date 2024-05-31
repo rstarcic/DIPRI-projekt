@@ -1,0 +1,1985 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'sr' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Q:\Unity\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Game Dev/Modeli/modeli
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+63448
+Successfully changed project path to: D:/Game Dev/Modeli/modeli
+D:/Game Dev/Modeli/modeli
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17388] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1474572208 [EditorId] 1474572208 [Version] 1048832 [Id] WindowsEditor(7,Ell) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17388] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1474572208 [EditorId] 1474572208 [Version] 1048832 [Id] WindowsEditor(7,Ell) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path Q:/Unity/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Dev/Modeli/modeli/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'Q:/Unity/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'Q:/Unity/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Q:/Unity/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Q:/Unity/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003407 seconds.
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.354 seconds
+Domain Reload Profiling: 725ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (355ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3673.
+Memory consumption went from 133.5 MB to 133.5 MB.
+Total: 3.020900 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.232000 ms MarkObjects: 2.392300 ms  DeleteObjects: 0.121900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1378826.676107 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Boxers_Pbr.mat
+  artifactKey: Guid(fe8c090619de7a847bcdb209900c2423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Boxers_Pbr.mat using Guid(fe8c090619de7a847bcdb209900c2423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11063a24d3bd9480f6e883f20f922b13') in 0.959057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map8.mat
+  artifactKey: Guid(52c42eff865311f41acab4fbc63b745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/Materials/map8.mat using Guid(52c42eff865311f41acab4fbc63b745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b5384fd8e4a89db0ca2e5cc3c28e69') in 0.103608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map5.mat
+  artifactKey: Guid(0c4be2c3911ed014c99a083e8f6b559d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/Materials/map5.mat using Guid(0c4be2c3911ed014c99a083e8f6b559d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5fe13a963cc2d310bcb39dc54fab4b') in 0.125106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map6.mat
+  artifactKey: Guid(70d2f1f103c1d0b4bbbf2bb849ab373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/Materials/map6.mat using Guid(70d2f1f103c1d0b4bbbf2bb849ab373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbe77bf887625023e4b65c4d124c332') in 0.333139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map10.mat
+  artifactKey: Guid(ffaecfc65f481f44fbafc2e3e3524cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/Materials/map10.mat using Guid(ffaecfc65f481f44fbafc2e3e3524cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e654d7271c161602ed75d352d33b0d9a') in 0.247901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Jeans_Pbr.mat
+  artifactKey: Guid(8ba8a034a86c12e469ed0d4d22c06ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Jeans_Pbr.mat using Guid(8ba8a034a86c12e469ed0d4d22c06ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13fabc076a87f234fad20b407ff455f') in 0.705187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Low_rise_Shorts_Pbr.mat
+  artifactKey: Guid(dcd2a2aed91f97c469d1c6f0d2c59f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Low_rise_Shorts_Pbr.mat using Guid(dcd2a2aed91f97c469d1c6f0d2c59f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e87bac008b1a23274c0193ba98cf4f9') in 0.305932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 148.089569 seconds.
+  path: Assets/2.obj
+  artifactKey: Guid(cd5620e8276e62340a8f858bd0dc195e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2.obj using Guid(cd5620e8276e62340a8f858bd0dc195e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77bcd48958d253d6b0dd82cab4ef162f') in 0.782571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS008/HS008.Fbx
+  artifactKey: Guid(3daadc2a4a65c1943a21801f43fe57e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.Fbx using Guid(3daadc2a4a65c1943a21801f43fe57e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3abeaa9988909718fe88b1f6734a0f22') in 1.153056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 254
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12.mat
+  artifactKey: Guid(c75e6289c2502a644a113f17d89ac433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12.mat using Guid(c75e6289c2502a644a113f17d89ac433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e093ba70a3e7a5785a32dbec6987c5f3') in 0.281282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/znak/Sign_BLEND.zip
+  artifactKey: Guid(a70f477f3b293344da6fe3b3746bad6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/znak/Sign_BLEND.zip using Guid(a70f477f3b293344da6fe3b3746bad6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '319e00f1190b6b32b971bf2606c9c839') in 0.061706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2stich.obj
+  artifactKey: Guid(7ec61a84d0f037b47a6975a3508c7515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2stich.obj using Guid(7ec61a84d0f037b47a6975a3508c7515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35ff85149a2e8908a0e5aaa4c70b49f2') in 0.195193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13.mat
+  artifactKey: Guid(1cedce7db56d8a24bacbf04e764ad74a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13.mat using Guid(1cedce7db56d8a24bacbf04e764ad74a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72ec9614475fe8786f15d0a57f28800e') in 0.184391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Combat Knife/fbx + materials/blade1k(black).mat
+  artifactKey: Guid(d909fb41410948342a1526262fc5b7da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/fbx + materials/blade1k(black).mat using Guid(d909fb41410948342a1526262fc5b7da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3703e503b8120a1c4dc9f63900b46b03') in 0.151411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 normal.tga
+  artifactKey: Guid(81916294af2dfe646875bdfa4fea17dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 normal.tga using Guid(81916294af2dfe646875bdfa4fea17dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60490a85f76f86bb806a79d0fbf99577') in 0.182567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/remesh_8_combined_Remeshed_LOD1_Normal.png
+  artifactKey: Guid(a9bfa4c25ec3a6d4c8f34e4ecad83835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/remesh_8_combined_Remeshed_LOD1_Normal.png using Guid(a9bfa4c25ec3a6d4c8f34e4ecad83835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77e3d94595101d5ca710b3120eacd659') in 0.040144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14.mat
+  artifactKey: Guid(f03a6306859a0e2479fb8cc6d0553baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14.mat using Guid(f03a6306859a0e2479fb8cc6d0553baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb76a5ada6590a66cd1e4d1b46cb5c16') in 0.081943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/znak/Sign.blend
+  artifactKey: Guid(87a5f9b24843d6741b802748848a4d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/znak/Sign.blend using Guid(87a5f9b24843d6741b802748848a4d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3acb55ff45aa7b8dc0831d4be39dfa34') in 0.099529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS015/HS015.json
+  artifactKey: Guid(c1c0465651c57fd46ab47397e09e0eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.json using Guid(c1c0465651c57fd46ab47397e09e0eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8deebfcc23edc3ebbe6ff7b318dbba0') in 0.027614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations/womanwalk.fbx
+  artifactKey: Guid(6559eb5f48ff0bd4cbe029dd66ece3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/womanwalk.fbx using Guid(6559eb5f48ff0bd4cbe029dd66ece3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '920346d6e51f0dc6f1e977f63f9edc3b') in 0.172500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06.mat
+  artifactKey: Guid(7ab5419603cdd1b47bcffeff55825849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06.mat using Guid(7ab5419603cdd1b47bcffeff55825849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '440bad57a49a6ab325b54b6ea04c8f4c') in 0.388461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Utility/DynamicShadowSettings.cs
+  artifactKey: Guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Utility/DynamicShadowSettings.cs using Guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e28d2ba6ba8e0585cff7e08dd5b4d80c') in 0.154200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/X Bot@Walking.controller
+  artifactKey: Guid(4194bf620a55df24989d845823b89d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/X Bot@Walking.controller using Guid(4194bf620a55df24989d845823b89d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77fa48edf02e61eee90b7089e763a9e3') in 0.066348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/znak/Sign.fbx
+  artifactKey: Guid(21069025558db7d43b8af17404f2d06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/znak/Sign.fbx using Guid(21069025558db7d43b8af17404f2d06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de14b8de7aa49df4cfbabeb5dba6f83e') in 0.132284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 diffuse.tga
+  artifactKey: Guid(3bd0228764f23364b9118a627a195621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 diffuse.tga using Guid(3bd0228764f23364b9118a627a195621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dd77eba1ff9fae94530f1df34f31dd6') in 0.233386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15.mat
+  artifactKey: Guid(d64e6cad4dbba3049895ced83800f404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15.mat using Guid(d64e6cad4dbba3049895ced83800f404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '886257b2969e85cba1406e5a9f6747e0') in 0.506086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Combat Knife/2kblackblade.prefab
+  artifactKey: Guid(fdd607a21c8c93a418430079f7d4cc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/2kblackblade.prefab using Guid(fdd607a21c8c93a418430079f7d4cc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03c11edd869c8fe60a63468f71bf0c46') in 0.349497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Eye_R_Pbr_Normal.png
+  artifactKey: Guid(40c5ffe562a93cd4d9794c30bf6819cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Eye_R_Pbr_Normal.png using Guid(40c5ffe562a93cd4d9794c30bf6819cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0da2a44d7585d2b8225dbf5de21c15fd') in 0.906193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 normal.tga
+  artifactKey: Guid(ccad681da3501284eb30bd9d0ea1b421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 normal.tga using Guid(ccad681da3501284eb30bd9d0ea1b421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8219d6a837164d4faff86a05d30d09b') in 0.193298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09.mat
+  artifactKey: Guid(6cfcab824d7b63a40bf197a49d6c1301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09.mat using Guid(6cfcab824d7b63a40bf197a49d6c1301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e474f876c8580c61b439341a55720e26') in 0.110965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Tongue_Pbr_Diffuse.png
+  artifactKey: Guid(df4afc43e6fa86c41b6584894575f872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Tongue_Pbr_Diffuse.png using Guid(df4afc43e6fa86c41b6584894575f872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29ebd292fb84f5235569ca12a8479fec') in 0.749211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Tongue_Pbr_Normal.png
+  artifactKey: Guid(385008724ddf692419098f3e5d835052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Tongue_Pbr_Normal.png using Guid(385008724ddf692419098f3e5d835052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23feb43745baa50c623f7b20f58179ae') in 0.466567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Combat Knife/Texture/ao2k(handle).png
+  artifactKey: Guid(d34c9055e519b154ba0795dd60339d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/Texture/ao2k(handle).png using Guid(d34c9055e519b154ba0795dd60339d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2d05a5894c91aef0bc2554a9217bedf') in 0.231336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CC_Assets/HS004/materials/Boots_Pbr.mat
+  artifactKey: Guid(950d026fa3ac8054ea82608c91ee367d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/materials/Boots_Pbr.mat using Guid(950d026fa3ac8054ea82608c91ee367d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '857e8b834242bc86f722e613ca48a640') in 0.336987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(ace94c6e14b6b6140a2ba18781a3fea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayerController.cs using Guid(ace94c6e14b6b6140a2ba18781a3fea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '228fd51c13ec06431544c61f88f924ab') in 0.059621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/strafe/LeftStrafe.controller
+  artifactKey: Guid(24db7ad9bc0a3c94c85e0605b721270c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/strafe/LeftStrafe.controller using Guid(24db7ad9bc0a3c94c85e0605b721270c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '232ca94f1c2dc89c687f060360f2cbf0') in 0.168844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS004/materials/Std_Eye_Occlusion_L_Pbr.mat
+  artifactKey: Guid(df77ca3335284214a94f663dc5baf4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/materials/Std_Eye_Occlusion_L_Pbr.mat using Guid(df77ca3335284214a94f663dc5baf4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52a0381d26b61fbad863ec69aab6b860') in 0.199323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CC_Assets/HS004/materials/Std_Lower_Teeth_Pbr.mat
+  artifactKey: Guid(9bea35222e08e2a4db688a6f5cb031cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/materials/Std_Lower_Teeth_Pbr.mat using Guid(9bea35222e08e2a4db688a6f5cb031cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2c645dd218ffdbf8fb5a4455deabdec') in 0.290362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 normal.tga
+  artifactKey: Guid(ba20c94d07a7d944581b737e27dafa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 normal.tga using Guid(ba20c94d07a7d944581b737e27dafa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f636b4115a484c262cd6be78041785c') in 0.425259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CC_Assets/HS004/materials/Std_Upper_Teeth_Pbr.mat
+  artifactKey: Guid(f96175a025bbc5348bf7a8ebd7472d5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/materials/Std_Upper_Teeth_Pbr.mat using Guid(f96175a025bbc5348bf7a8ebd7472d5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6770d7365f0165d50b55e91b71badcb') in 0.474222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Boots_Pbr_Diffuse.png
+  artifactKey: Guid(fbf123266faf8e3448b40dde24c779c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Boots_Pbr_Diffuse.png using Guid(fbf123266faf8e3448b40dde24c779c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '700ca3653f2a6ca8c274d5836e371273') in 0.229026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Nails_Pbr_Diffuse.jpg
+  artifactKey: Guid(272198672b386a44b8c91be4fae8aa6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Nails_Pbr_Diffuse.jpg using Guid(272198672b386a44b8c91be4fae8aa6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '841f27b9a334c1c150c4e5af7ff38845') in 0.108007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 normal.tga
+  artifactKey: Guid(7e0d5aa6aab8f444a99dc28f0a08956b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 normal.tga using Guid(7e0d5aa6aab8f444a99dc28f0a08956b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1b2585aba98422bdee27b45164e5a65') in 0.119234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Combat Knife/fbx + materials/CombatKnife.fbx
+  artifactKey: Guid(7b2383c948ac5a242873fb98b0e62a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/fbx + materials/CombatKnife.fbx using Guid(7b2383c948ac5a242873fb98b0e62a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fd4dd0cd2c1519511bd99d18a6c199d') in 0.291406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Cornea_L_Pbr_Diffuse.png
+  artifactKey: Guid(6110f265b424f6c40bd957885ace84e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Cornea_L_Pbr_Diffuse.png using Guid(6110f265b424f6c40bd957885ace84e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ff11433341149489dffa3f77e533c1b') in 0.357130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Utility/FollowTarget.cs
+  artifactKey: Guid(246cc59c7a84ea44f87f6b70acfe30c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Utility/FollowTarget.cs using Guid(246cc59c7a84ea44f87f6b70acfe30c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84f035903a8b6d6cbbc71926acff1bc3') in 0.037418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Jeans_Pbr_Diffuse.png
+  artifactKey: Guid(af3d1c4c6ddb4f247a09753a0b9be7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Jeans_Pbr_Diffuse.png using Guid(af3d1c4c6ddb4f247a09753a0b9be7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3084a68b413b2f474144e8087ed27c00') in 0.109846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 diffuse.tga
+  artifactKey: Guid(5a1cd0ec1d5613641b8370b91d585119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 diffuse.tga using Guid(5a1cd0ec1d5613641b8370b91d585119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7171ee2b6458fa4eb6cabce71f1cb9b1') in 0.197169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Combat Knife/Texture/ao1k(handle).png
+  artifactKey: Guid(7200c6c8b19a7594a912839562330713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/Texture/ao1k(handle).png using Guid(7200c6c8b19a7594a912839562330713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a25111a8522c7469c023459b8f2bc8b') in 0.228734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 normal.tga
+  artifactKey: Guid(953d4f6c4e384434a997ab66210c822d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 normal.tga using Guid(953d4f6c4e384434a997ab66210c822d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '210e598e1888e57c4f432d0ab1150fd6') in 0.411472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Tongue_Pbr_Normal.png
+  artifactKey: Guid(47decd5f56b3938409a07021491e4315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Tongue_Pbr_Normal.png using Guid(47decd5f56b3938409a07021491e4315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd964c13588d6583d3a09d8732eadf529') in 0.422124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Arm_Pbr_Diffuse.png
+  artifactKey: Guid(04e11e89693907f46b0a63b88059257b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Arm_Pbr_Diffuse.png using Guid(04e11e89693907f46b0a63b88059257b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6aad8a3beaa6b727f312182cddbacf0b') in 0.438048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Body_Pbr_Normal.png
+  artifactKey: Guid(6b26a1af57dcddd4593867028bba2299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Body_Pbr_Normal.png using Guid(6b26a1af57dcddd4593867028bba2299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3aad399f6f9d67208a278219255c8583') in 0.414858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Cornea_L_Pbr_Diffuse.png
+  artifactKey: Guid(abe9458b195b206478e45c27ecbe23a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Cornea_L_Pbr_Diffuse.png using Guid(abe9458b195b206478e45c27ecbe23a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21a49d0bb1f0f1a587485b9f2b7950c7') in 0.227429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/blood_PNG6102-181994401.png
+  artifactKey: Guid(ca143e54679ad2746935dff085671dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/blood_PNG6102-181994401.png using Guid(ca143e54679ad2746935dff085671dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f41096e67a9ff91979ffebc4c4271086') in 0.144825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/Utility/AutoMoveAndRotate.cs
+  artifactKey: Guid(a1347817507220a4384f3ff6f7c24546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Utility/AutoMoveAndRotate.cs using Guid(a1347817507220a4384f3ff6f7c24546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1609543c9edc52cda9affc209f490a9') in 0.151814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS008/Prefabs/HS008.prefab
+  artifactKey: Guid(af54fd940fbe4d24fac8b10f9d5a12f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Prefabs/HS008.prefab using Guid(af54fd940fbe4d24fac8b10f9d5a12f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8c578fe0c26527cdbb5d482c5e986ad') in 0.083130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03.mat
+  artifactKey: Guid(5d6806ab6c681494e81a3e2d7de093a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03.mat using Guid(5d6806ab6c681494e81a3e2d7de093a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cb3e5e235b29f0c6b85843c77d1f685') in 0.091425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Skin_Arm_Pbr_Normal.png
+  artifactKey: Guid(0f4faaec5d0bad54b8fc9e49af236484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Skin_Arm_Pbr_Normal.png using Guid(0f4faaec5d0bad54b8fc9e49af236484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9adb9c61d721effab1fc9fdc7c893c1') in 0.158217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Eye_L_Pbr_Normal.png
+  artifactKey: Guid(e10af5994cffc084e8add3048029980b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Eye_L_Pbr_Normal.png using Guid(e10af5994cffc084e8add3048029980b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87546cde771460b5eff329e480d24444') in 0.157471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Cornea_L_Pbr_Diffuse.png
+  artifactKey: Guid(e9385cb4b4b0aa147876205b79407f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Cornea_L_Pbr_Diffuse.png using Guid(e9385cb4b4b0aa147876205b79407f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d604bc1ec1db07ba1a82c55ab99a707') in 0.216857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 01/Wood Texture 01 diffuse.tga
+  artifactKey: Guid(556156e47a9033342833685b5cc1cee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 01/Wood Texture 01 diffuse.tga using Guid(556156e47a9033342833685b5cc1cee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec681c2f57f9032a8b37e654ba7c951f') in 0.084377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/obj_default_Transparency_Tra_Diffuse.png
+  artifactKey: Guid(30f201919e44d57418fc61491d4e9bfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/obj_default_Transparency_Tra_Diffuse.png using Guid(30f201919e44d57418fc61491d4e9bfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca5be2765ad7558b848269d3b560b14a') in 0.074104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Body_Pbr_Normal.png
+  artifactKey: Guid(d10d040952136e54bb2992e7ae5e2ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Body_Pbr_Normal.png using Guid(d10d040952136e54bb2992e7ae5e2ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07af9bee0fdbe83ace8416f90a4f9b94') in 0.653649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Camisole_Pbr_Normal.png
+  artifactKey: Guid(ddad27bf72dd31144b1276d88e0e6d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Camisole_Pbr_Normal.png using Guid(ddad27bf72dd31144b1276d88e0e6d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4424683994df1ea8db62b1fddfbcace9') in 0.228159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Tearline_R_Pbr_Diffuse.png
+  artifactKey: Guid(c21543e8c84588440bd7c492675d2195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Tearline_R_Pbr_Diffuse.png using Guid(c21543e8c84588440bd7c492675d2195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cb01940c567475788eff16123745a6f') in 0.089135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Body_Pbr_Diffuse2.png
+  artifactKey: Guid(d9afaa95c3ae5bf478495d7e40e2ecc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Body_Pbr_Diffuse2.png using Guid(d9afaa95c3ae5bf478495d7e40e2ecc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd370e1b945a89928b6600314b7f04c60') in 0.466931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Std_Eyelash_Pbr_Diffuse.png
+  artifactKey: Guid(be2d3e1f93d7df643b82ff098bb53249) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Std_Eyelash_Pbr_Diffuse.png using Guid(be2d3e1f93d7df643b82ff098bb53249) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ae98082ec08c39adca620cebb23012a') in 0.193649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Std_Eye_L_Pbr_Diffuse.png
+  artifactKey: Guid(9e3f821276829254da6bdf36bb2a86d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Std_Eye_L_Pbr_Diffuse.png using Guid(9e3f821276829254da6bdf36bb2a86d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cdb3b025fce9475409a2df35bccb91d') in 0.330263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Plaid_Punk_Shirt_Pbr_Normal.png
+  artifactKey: Guid(e8c10aa493431114180b2af58b66bf2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Plaid_Punk_Shirt_Pbr_Normal.png using Guid(e8c10aa493431114180b2af58b66bf2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f03a22b84a4738eda67801be8d78ca2') in 0.222072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Lower_Teeth_Pbr_Normal.png
+  artifactKey: Guid(3653019f6e617c14595b5e826c2c8e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Lower_Teeth_Pbr_Normal.png using Guid(3653019f6e617c14595b5e826c2c8e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22919f050eb3dfb202af8a2f72152407') in 0.497856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Cornea_R_Pbr_Diffuse.png
+  artifactKey: Guid(9ba1752340021a640a4245ca2fffadd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Cornea_R_Pbr_Diffuse.png using Guid(9ba1752340021a640a4245ca2fffadd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6122cfecafe9f7decfa83da5833ff67') in 0.194303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Std_Skin_Leg_Pbr_Normal.png
+  artifactKey: Guid(05995deb5d423a34aa650528e0fab444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Std_Skin_Leg_Pbr_Normal.png using Guid(05995deb5d423a34aa650528e0fab444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6e3decab6de378451ecd7cb61ba96da') in 0.353019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/obj_default_Transparency_Tra_Diffuse.png
+  artifactKey: Guid(350a599c1630e324d84aca136cff0ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/obj_default_Transparency_Tra_Diffuse.png using Guid(350a599c1630e324d84aca136cff0ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3316cacd21e1f1b1bca2bee241637d80') in 0.250775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Underwear_Bottoms_Pbr_Diffuse.png
+  artifactKey: Guid(c024730edaf638445aec751a74c024d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Underwear_Bottoms_Pbr_Diffuse.png using Guid(c024730edaf638445aec751a74c024d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eacb7d6852f75ae024ce52903b70ac20') in 0.126950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Tongue_Pbr_Normal.png
+  artifactKey: Guid(b653d7d419535f34ca9146a627a78b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Tongue_Pbr_Normal.png using Guid(b653d7d419535f34ca9146a627a78b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e96c14ee2d349226b34a5c675f0cd432') in 0.065137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Arm_Pbr_Diffuse.png
+  artifactKey: Guid(a02be67d50f256848a48da893f7d2df7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Skin_Arm_Pbr_Diffuse.png using Guid(a02be67d50f256848a48da893f7d2df7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '956dd2b70008a0fac57a4225d9b2e742') in 0.576624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HousePack/Models/House1/House1.FBX
+  artifactKey: Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HousePack/Models/House1/House1.FBX using Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8ffb4255911791b3279ee14d50da9cd') in 0.103586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CC_Assets/HS015/Prefabs/HS015walk.prefab
+  artifactKey: Guid(da32512fce351de4ba92a8eda2be4032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Prefabs/HS015walk.prefab using Guid(da32512fce351de4ba92a8eda2be4032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97c6fc5a31f76190ba00ebcc224ae93e') in 0.114859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 292
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs
+  artifactKey: Guid(89a534d869bfccd49bebf7cb6fb244b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs using Guid(89a534d869bfccd49bebf7cb6fb244b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18b52fd0ccc1ed6cc386f9a9102a1843') in 0.065284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+  artifactKey: Guid(d947636a9390f6a46a121124154e6e3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs using Guid(d947636a9390f6a46a121124154e6e3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5d99a10021eb4a8f2f3ff17998ce23d') in 0.045085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+  artifactKey: Guid(a8d3968294210ba4a9d2bb96dfa74a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Cameras/Scripts/AutoCam.cs using Guid(a8d3968294210ba4a9d2bb96dfa74a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c690b3763a5c8798ee82cf52f5dd4acc') in 0.013616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Tearline_L_Pbr_Diffuse.png
+  artifactKey: Guid(daa78f29a49617147a7d3a1480197fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Tearline_L_Pbr_Diffuse.png using Guid(daa78f29a49617147a7d3a1480197fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a83d2d4d21039571c6230cc19539454d') in 0.122723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Head_Pbr_Diffuse.png
+  artifactKey: Guid(07d9d844a87af2e4bb7a71c833bea6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Skin_Head_Pbr_Diffuse.png using Guid(07d9d844a87af2e4bb7a71c833bea6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af2c638a937ef21aa44953be3107b3fc') in 0.326011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs
+  artifactKey: Guid(0ac1691131a8c844dafe8b6ace6a172a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs using Guid(0ac1691131a8c844dafe8b6ace6a172a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fd8f174721eb0017b296617d00f9d67') in 0.073278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs
+  artifactKey: Guid(13e3e45088e68834999c82ca6f025949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs using Guid(13e3e45088e68834999c82ca6f025949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89c383f81fd3d39e64cb16a517c95302') in 0.097130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Jeans_Pbr_Normal.png
+  artifactKey: Guid(efcd1734ba0b69f4189f19957796e5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Jeans_Pbr_Normal.png using Guid(efcd1734ba0b69f4189f19957796e5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cdfbf5cb54b45c80d5c2ed592d0fce8a') in 0.167149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Utility/EventSystemChecker.cs
+  artifactKey: Guid(9c0578910bbe00d43919a92c7b9893fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Utility/EventSystemChecker.cs using Guid(9c0578910bbe00d43919a92c7b9893fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff79c869bbbcb9849c9bf1107b912651') in 0.256827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs
+  artifactKey: Guid(723274b822865ed4d9ed2a504c0ca79d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs using Guid(723274b822865ed4d9ed2a504c0ca79d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30fef5ca9ebd3ee21e03526c51c35056') in 0.058651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs
+  artifactKey: Guid(2d79772cda0b4b6409070163fcab05da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs using Guid(2d79772cda0b4b6409070163fcab05da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f7cdc31e9a093d9f85f7ab612c32246') in 0.222180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Std_Skin_Head_Pbr.mat
+  artifactKey: Guid(7ce6326ffe5315a4ca1f5c0d57d42d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Std_Skin_Head_Pbr.mat using Guid(7ce6326ffe5315a4ca1f5c0d57d42d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4566eab8961fe5b9b8bed6806962cd0b') in 0.793523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Std_Skin_Arm_Pbr.mat
+  artifactKey: Guid(5ccc2a2ddcb73ef4fad28d156c99a0a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Std_Skin_Arm_Pbr.mat using Guid(5ccc2a2ddcb73ef4fad28d156c99a0a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9a5100556ed03be4412b6cc62d0cb16') in 0.883597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Std_Tearline_L_Pbr.mat
+  artifactKey: Guid(016cb998ff3d50d4597da696015c223b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Std_Tearline_L_Pbr.mat using Guid(016cb998ff3d50d4597da696015c223b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d204ac4b1e1ddc0c1025c563658e4fd') in 0.430149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/obj_default_Transparency_Tra.mat
+  artifactKey: Guid(ac16d8682db85ad478de3669f0b127e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/obj_default_Transparency_Tra.mat using Guid(ac16d8682db85ad478de3669f0b127e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '833107620f9e25e3b3f3c2f80ae69e96') in 0.248312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Jeans_Pbr_Glow.png
+  artifactKey: Guid(5558e734d9161d9419041689e9d617e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Jeans_Pbr_Glow.png using Guid(5558e734d9161d9419041689e9d617e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff8dc24cbab212c01aaa3cede9992219') in 0.218813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Boxers_Pbr_HDRP.png
+  artifactKey: Guid(745555c94b7ba234b88543ed87ecb3e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Boxers_Pbr_HDRP.png using Guid(745555c94b7ba234b88543ed87ecb3e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '444ce72e527e0b54e1ed6415c5c962de') in 0.160132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 normal.tga
+  artifactKey: Guid(f9d084406c1055f49b3430a9cf909f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 normal.tga using Guid(f9d084406c1055f49b3430a9cf909f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa9f93bfe1d73fecd5029b5119df25e7') in 0.101184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Skin_Leg_Pbr_Normal.png
+  artifactKey: Guid(c7ae1bebd8723604ca6d42c712aaa5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Skin_Leg_Pbr_Normal.png using Guid(c7ae1bebd8723604ca6d42c712aaa5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c886442753faa942e0f47a60fcb84a2') in 0.134148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Cornea_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(7ba6eeaea89cfab4f81211a966733647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Cornea_L_Pbr_MetallicAlpha.png using Guid(7ba6eeaea89cfab4f81211a966733647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5aaa1681955d308b9ba0724a6dfabb0d') in 0.036459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Plaid_Punk_Shirt_Pbr_Displacement.png
+  artifactKey: Guid(a6aecf9073107d54a9fcb4e1847b88e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Plaid_Punk_Shirt_Pbr_Displacement.png using Guid(a6aecf9073107d54a9fcb4e1847b88e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b2d6f2a898c1ae89394217532425cad') in 0.202572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Plaid_Punk_Shirt_Pbr_ao.png
+  artifactKey: Guid(965d025236dbe3c499d7604dc21bacdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Plaid_Punk_Shirt_Pbr_ao.png using Guid(965d025236dbe3c499d7604dc21bacdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '898fb1f1d511904920b55d5937a9a40e') in 0.104469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS015/HS015.fbm/Std_Upper_Teeth_Pbr_Normal.png
+  artifactKey: Guid(898f0970760f09e45bd0eb1eb1942a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/HS015.fbm/Std_Upper_Teeth_Pbr_Normal.png using Guid(898f0970760f09e45bd0eb1eb1942a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11bba9fa724380811381f935b61f465a') in 0.067341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+  artifactKey: Guid(71398ce7fbc3a5b4fa50b50bd54317a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs using Guid(71398ce7fbc3a5b4fa50b50bd54317a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd38daaa5d4e2bcae7b1c081fda3869e4') in 0.147395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS008/Materials/HS008/Std_Upper_Teeth_Pbr.mat
+  artifactKey: Guid(9b71b49a7a41f91488b1c27bf1a71584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Materials/HS008/Std_Upper_Teeth_Pbr.mat using Guid(9b71b49a7a41f91488b1c27bf1a71584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b022f87dfe14491816264a1f34001c57') in 0.351424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Combat Knife/Texture/Blade/diffuse2k(black metal).png
+  artifactKey: Guid(b1f217393973c7040895021903f2c343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/Texture/Blade/diffuse2k(black metal).png using Guid(b1f217393973c7040895021903f2c343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02ddc1fc8681b50f53cb1a80d3eebf9d') in 0.050451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
+  artifactKey: Guid(a62942d9af3f36d448094c6ed1f214dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs using Guid(a62942d9af3f36d448094c6ed1f214dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f453ed86a906ecb21c2824800994bd53') in 0.178308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Plaid_Punk_Shirt_Pbr_Diffuse.png
+  artifactKey: Guid(9a9be9cc72cf720499ec9c245c61f903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Plaid_Punk_Shirt_Pbr_Diffuse.png using Guid(9a9be9cc72cf720499ec9c245c61f903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f27d45c74382da66748c918cb5c4852e') in 0.023417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Animations/idle/IdleController.controller
+  artifactKey: Guid(ba36caed11481124593dd3925ffed3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/idle/IdleController.controller using Guid(ba36caed11481124593dd3925ffed3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '777dc409a20d42899545a7b0cce72d87') in 0.069244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Nails_Pbr_Diffuse.jpg
+  artifactKey: Guid(99954767fbd3c984eb91671dbe118f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Nails_Pbr_Diffuse.jpg using Guid(99954767fbd3c984eb91671dbe118f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'debd3e1ab92c9ee0f97a1a303e6a2969') in 0.257388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Tank_top_Pbr_Diffuse.png
+  artifactKey: Guid(56d8c794779b73b43a8e6b810ffc52f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Tank_top_Pbr_Diffuse.png using Guid(56d8c794779b73b43a8e6b810ffc52f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c61d282f275fc12c08197c3c20eb3e2d') in 0.030531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Eye_R_Pbr_Diffuse.png
+  artifactKey: Guid(65695dd73ac655b4794ac3e1011afbc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Eye_R_Pbr_Diffuse.png using Guid(65695dd73ac655b4794ac3e1011afbc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e49119e48d586514106d2095b301d99d') in 0.049547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CC_Assets/HS004/HS004.fbm/Std_Lower_Teeth_Pbr_Diffuse.png
+  artifactKey: Guid(bbddfe0951a00494a9758768caaab05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS004/HS004.fbm/Std_Lower_Teeth_Pbr_Diffuse.png using Guid(bbddfe0951a00494a9758768caaab05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '655876222562a4fb2d73263c623c541f') in 0.188254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS013/HS013.fbm/Std_Cornea_R_Pbr_Diffuse.png
+  artifactKey: Guid(90ef23c0ec9ddf44fa4866ca7ac089ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/HS013.fbm/Std_Cornea_R_Pbr_Diffuse.png using Guid(90ef23c0ec9ddf44fa4866ca7ac089ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b8e30a70b8148f9174e8341d50231f8') in 0.181563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS008/Prefabs/HS008walk.prefab
+  artifactKey: Guid(b88a75abdf5674d48aab93a1445187b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/Prefabs/HS008walk.prefab using Guid(b88a75abdf5674d48aab93a1445187b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60d58d15d130fd19f66f292e8b2957ec') in 0.488436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Combat Knife/fbx + materials/Handle1k.mat
+  artifactKey: Guid(41e2cbbee1eb65047919b23512283b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Combat Knife/fbx + materials/Handle1k.mat using Guid(41e2cbbee1eb65047919b23512283b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78244dfe59b84671a673059d49fbd649') in 0.079807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Jeans_Pbr_Displacement.png
+  artifactKey: Guid(dca84925a60f53546a2c61de8c0ca89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Jeans_Pbr_Displacement.png using Guid(dca84925a60f53546a2c61de8c0ca89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6222cc077ab1c8b05afe89a31ada1def') in 0.189456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animations/back/BackwardController.controller
+  artifactKey: Guid(017d040bdb43242418d66ca5f399a078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/back/BackwardController.controller using Guid(017d040bdb43242418d66ca5f399a078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb50571293eb7ea36fabaabcc931f61') in 0.105645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs
+  artifactKey: Guid(009fbf49e77db344db366a646868e02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs using Guid(009fbf49e77db344db366a646868e02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b2ea7a073d9af9fc8b3af8f4933dd91') in 0.057646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CC_Assets/HS008/HS008.fbm/Std_Eye_R_Pbr_Normal.png
+  artifactKey: Guid(9c5eb1f57bc7cb34ba3ed95225c38547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/HS008.fbm/Std_Eye_R_Pbr_Normal.png using Guid(9c5eb1f57bc7cb34ba3ed95225c38547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94d3e70d399f83bd95d5857327958d7e') in 0.308259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/back/X Bot@Walking Backwards.fbx
+  artifactKey: Guid(f24767255e68e1a459b9a678bc3c22dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/back/X Bot@Walking Backwards.fbx using Guid(f24767255e68e1a459b9a678bc3c22dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87d07399c1c29cdb819f94ae33cf76ee') in 0.147636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs
+  artifactKey: Guid(433e9c8d0293ac4429eaf19bff2b58cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs using Guid(433e9c8d0293ac4429eaf19bff2b58cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '700c21fd6c600af62b84300a76dfa8ca') in 0.062721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.651096 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Cornea_R_Pbr_Sclera.jpg
+  artifactKey: Guid(8cd3aba19c8e00c4bbe22563c117b51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Cornea_R_Pbr_Sclera.jpg using Guid(8cd3aba19c8e00c4bbe22563c117b51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5b1e2e7d7d31ff37e6f27aa0540ffbb') in 0.408427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_ResourceMap_WSNormal.png
+  artifactKey: Guid(e4979a45a2646a94493e8b0a9cb3dd1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_ResourceMap_WSNormal.png using Guid(e4979a45a2646a94493e8b0a9cb3dd1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '798ea42c57fd3b59d39752e4413dfe6b') in 0.133763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Arm_Pbr_MicroNMask.jpg
+  artifactKey: Guid(75cdc5fedc88ed244acda29cb59e7f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Arm_Pbr_MicroNMask.jpg using Guid(75cdc5fedc88ed244acda29cb59e7f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c6156694c209a7dd507a499978d0895') in 0.377028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_ResourceMap_WSNormal.png
+  artifactKey: Guid(c3291c7bf42d0554bab27c156b21e299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_ResourceMap_WSNormal.png using Guid(c3291c7bf42d0554bab27c156b21e299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34d780b40d3508d038877bc4f94b3c9f') in 0.645364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Arm_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(62472c2b6c7f59944aa2b475927a922d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Arm_Pbr_ResourceMap_Position.png using Guid(62472c2b6c7f59944aa2b475927a922d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '107a03ca1165f286eb1d0cdd331e80b6') in 0.108855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Arm_Pbr_SSSMap.png
+  artifactKey: Guid(daf472e689fed4049b87858b5968a074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Arm_Pbr_SSSMap.png using Guid(daf472e689fed4049b87858b5968a074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ceb017de76aab64cbe89f0124ed3800b') in 0.264795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Low_rise_Shorts_Pbr_ao.jpg
+  artifactKey: Guid(bd1df1a56bce2a844ac603862c2613cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Low_rise_Shorts_Pbr_ao.jpg using Guid(bd1df1a56bce2a844ac603862c2613cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27b31e229260b2603487bd0bc803cee0') in 0.174766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_MicroNMask.jpg
+  artifactKey: Guid(3c251fdc46c500a4494daa17db7a7050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_MicroNMask.jpg using Guid(3c251fdc46c500a4494daa17db7a7050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '158648a9c24eeb3eff53299e79c6c7e2') in 0.186553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_MNAOMask.tga
+  artifactKey: Guid(35b9ab87eaf032e4fb2d3808b92143d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_MNAOMask.tga using Guid(35b9ab87eaf032e4fb2d3808b92143d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7576f73b84818a806488300a8980f08a') in 0.480580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Eye_R_Pbr_MetallicAlpha.png
+  artifactKey: Guid(b08cf9eb01c68ed4aaf1fcd769cd8703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Eye_R_Pbr_MetallicAlpha.png using Guid(b08cf9eb01c68ed4aaf1fcd769cd8703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37e5721068e0eae260e8408bfe37bf03') in 0.031489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(3df451f2b74357940b47a27f9eddef1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_ResourceMap_Position.png using Guid(3df451f2b74357940b47a27f9eddef1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06943cbc3bbfcc9cca799c5c58fb1c42') in 0.106993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Eyelash_Pbr_MetallicAlpha.png
+  artifactKey: Guid(7465e62c289850f47b97b35176ded96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Eyelash_Pbr_MetallicAlpha.png using Guid(7465e62c289850f47b97b35176ded96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '941ddffae81366f1e0deafa4f8f7327e') in 0.290017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Arm_Pbr_TransMap.png
+  artifactKey: Guid(3e2db2bccd2391d4b903fe8d317be8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Arm_Pbr_TransMap.png using Guid(3e2db2bccd2391d4b903fe8d317be8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f4ac4241e94b868cb0355f8f4b92365') in 0.313047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS013/Materials/HS013/Std_Upper_Teeth_Pbr.mat
+  artifactKey: Guid(658a8eeaf3407094781ac58c0bfb4186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/Materials/HS013/Std_Upper_Teeth_Pbr.mat using Guid(658a8eeaf3407094781ac58c0bfb4186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2745981df3fc9f93459738518bedc103') in 0.261045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_ResourceMap_WSNormal.png
+  artifactKey: Guid(b9715dafcb670e44eb23672aaf9d903f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_ResourceMap_WSNormal.png using Guid(b9715dafcb670e44eb23672aaf9d903f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b51ccc9670760303f31dfcc03e8a6f94') in 0.065436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Eye_R_Pbr_HDRP.png
+  artifactKey: Guid(91a71b8f8a8552749a3b2c550feb37c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Eye_R_Pbr_HDRP.png using Guid(91a71b8f8a8552749a3b2c550feb37c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c8e7db802d4bacee829222d34f69f5e') in 0.097470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Underwear_Bottoms_Pbr_HDRP.png
+  artifactKey: Guid(45dfff4c1248c5f4d8e7b446e33dd8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Underwear_Bottoms_Pbr_HDRP.png using Guid(45dfff4c1248c5f4d8e7b446e33dd8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '069c8151a9848bee9b5dd963683d8e2f') in 0.657819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/obj_default_Transparency_Tra.mat
+  artifactKey: Guid(602818271d4db65418f14c078f7a53c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/obj_default_Transparency_Tra.mat using Guid(602818271d4db65418f14c078f7a53c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d6d3432c451d3dbdf98b703f47539b9') in 0.077584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Tongue_Pbr_GradAO.jpg
+  artifactKey: Guid(c362ae0ecf76fdb43a1c87f9246dd174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Tongue_Pbr_GradAO.jpg using Guid(c362ae0ecf76fdb43a1c87f9246dd174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d9d0a7e0b17870de3dfde9297258b47') in 0.222592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_SSSMap.png
+  artifactKey: Guid(0671359226cb1954eb4ce3ff961cd4a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_SSSMap.png using Guid(0671359226cb1954eb4ce3ff961cd4a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cc3972bd3ac334fa9b46ecaa3a68712') in 0.100246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Tongue_Pbr_ao.png
+  artifactKey: Guid(a1b0ebd4d7c34484bb3a56503f7a4df3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Tongue_Pbr_ao.png using Guid(a1b0ebd4d7c34484bb3a56503f7a4df3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18c762f2c1f7c9a7b317dc51b490fcda') in 0.337261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Std_Eyelash_Pbr.mat
+  artifactKey: Guid(fd87042ceb49f9b43903a7624387102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Std_Eyelash_Pbr.mat using Guid(fd87042ceb49f9b43903a7624387102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '874ff1f5b7a6aec82544a0b5b0459880') in 0.077469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Body_Pbr_MetallicAlpha.png
+  artifactKey: Guid(8a47b0be8caf1d24382d9f83b8641521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Body_Pbr_MetallicAlpha.png using Guid(8a47b0be8caf1d24382d9f83b8641521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7aba0bea366e2e75817f7ff7e53697b') in 0.323494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Camisole_Pbr_HDRP.png
+  artifactKey: Guid(27fd5efbbcf64ff4fa05237c79c50005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Camisole_Pbr_HDRP.png using Guid(27fd5efbbcf64ff4fa05237c79c50005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5bddb4853f86402f6edee72c2bc0545') in 0.033717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Camisole_Pbr.mat
+  artifactKey: Guid(3256f785ab897fc4a825d4a1d107f1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Camisole_Pbr.mat using Guid(3256f785ab897fc4a825d4a1d107f1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bcdae745d8dc829c758a7cc88c3e47c') in 0.438957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Low_rise_Shorts_Pbr_HDRP.png
+  artifactKey: Guid(e679e2c2d9dfc414792dcfa0be6eb4c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Low_rise_Shorts_Pbr_HDRP.png using Guid(e679e2c2d9dfc414792dcfa0be6eb4c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b500c473b59b903b42f930f48f7bfab') in 0.081923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Upper_Teeth_Pbr_GradAO.jpg
+  artifactKey: Guid(6d8d25b39d8acf94dbb6b0ac191af0c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Upper_Teeth_Pbr_GradAO.jpg using Guid(6d8d25b39d8acf94dbb6b0ac191af0c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec9a541f0e41b66fcfa7c6e0c57d55b4') in 0.045957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Nails_Pbr_MetallicAlpha.png
+  artifactKey: Guid(681456da5e287e74d9b30e1c8a8e3804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Nails_Pbr_MetallicAlpha.png using Guid(681456da5e287e74d9b30e1c8a8e3804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c58752072761a2f5fed5cb597dc158d') in 0.060503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Cornea_R_Pbr_HDRP.png
+  artifactKey: Guid(6cc441aa0e5616c4d9b4183044c5d524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Cornea_R_Pbr_HDRP.png using Guid(6cc441aa0e5616c4d9b4183044c5d524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fe7715d0a5fdb2c6022d9f139306508') in 0.238148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_ao.jpg
+  artifactKey: Guid(5190a36c14008d04ebea164c1b79d7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_ao.jpg using Guid(5190a36c14008d04ebea164c1b79d7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e927d8bd65719ed4f16438fe43fc0799') in 0.291226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Eye_Occlusion_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(5f5b2237a4a72214a99f9be74ef0967a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Eye_Occlusion_L_Pbr_MetallicAlpha.png using Guid(5f5b2237a4a72214a99f9be74ef0967a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcb0404798ce726f5d974a95c91ee991') in 0.050720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS013/Materials/HS013/Low_rise_Shorts_Pbr.mat
+  artifactKey: Guid(178f58b1ceda4754cbc7c97b80829799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/Materials/HS013/Low_rise_Shorts_Pbr.mat using Guid(178f58b1ceda4754cbc7c97b80829799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5afdfc13036f7f03daef07a37d07138') in 0.409139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Nails_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(e7893d3062e270248b3b6840f5eb92e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Nails_Pbr_ResourceMap_Position.png using Guid(e7893d3062e270248b3b6840f5eb92e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c3bec6ea3d90d68cbfa60407597fa2b') in 0.151591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(23664453eef7aef4699c2aa1ce4dfa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_L_Pbr_MetallicAlpha.png using Guid(23664453eef7aef4699c2aa1ce4dfa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27d0a8ceedb1f458ae49e35b0f13c13e') in 0.043125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Leg_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(88e0b3449368efb4289101eb96e740e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Leg_Pbr_ResourceMap_Position.png using Guid(88e0b3449368efb4289101eb96e740e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '232d780702d55498328b519c6bc29c2e') in 0.057300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Arm_Pbr_MetallicAlpha.png
+  artifactKey: Guid(4fdd7d673e5ec7f48955c1ad3b1cd89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Arm_Pbr_MetallicAlpha.png using Guid(4fdd7d673e5ec7f48955c1ad3b1cd89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae766c510d3290d72f9fd5cf8df2ffec') in 0.090827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Nails_Pbr_SSSMap.jpg
+  artifactKey: Guid(aa5e1ca798dac4840ab63cc922247ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Nails_Pbr_SSSMap.jpg using Guid(aa5e1ca798dac4840ab63cc922247ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62106f1d9fd09d05e9fe1e4758131da8') in 0.166731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Cornea_R_Pbr_ScleraN.png
+  artifactKey: Guid(a237c91e25ba1b24e9f843863f704153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Cornea_R_Pbr_ScleraN.png using Guid(a237c91e25ba1b24e9f843863f704153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55bb5992da170d7b94d52bab822e8fa8') in 0.059188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS013/Materials/HS013/Std_Eye_L_Pbr.mat
+  artifactKey: Guid(ea0dce1b63b2f7d49a1efcfc7b6a2e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/Materials/HS013/Std_Eye_L_Pbr.mat using Guid(ea0dce1b63b2f7d49a1efcfc7b6a2e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74989f9155218301088552281e7de29d') in 0.297432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_ResourceMap_WSNormal.png
+  artifactKey: Guid(477d1c98ffe0b91499ea46d813f8065f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_ResourceMap_WSNormal.png using Guid(477d1c98ffe0b91499ea46d813f8065f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12d7f29a65d92143d344ac13c84ca382') in 0.341851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_MetallicAlpha.png
+  artifactKey: Guid(d8e01dd316cd6ef4d817d710d007af84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_MetallicAlpha.png using Guid(d8e01dd316cd6ef4d817d710d007af84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec113dbf8c30d6bab4d81f46b174c6a6') in 0.415017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_SpecMask.jpg
+  artifactKey: Guid(1ec7f52ffb99a224eb101b8d6ad80744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_SpecMask.jpg using Guid(1ec7f52ffb99a224eb101b8d6ad80744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f11f28ac63926a1dcd95e5b722f7204') in 0.035260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(0153cb0da9772924ca9db33806c48087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_ResourceMap_Position.png using Guid(0153cb0da9772924ca9db33806c48087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fabc8a6e3e9651e4c9d91925a08d8078') in 0.108714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Eyelash_Pbr_HDRP.png
+  artifactKey: Guid(828b87485b3563e48903470dcda41e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Eyelash_Pbr_HDRP.png using Guid(828b87485b3563e48903470dcda41e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc3297fb9ff41762d3deee1e9b043dae') in 0.463993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_MicroNMask.jpg
+  artifactKey: Guid(d5165f6667d09ac4ca32b5fe433eedf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_MicroNMask.jpg using Guid(d5165f6667d09ac4ca32b5fe433eedf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b262a3eccd621a128c58af1467c3410') in 0.206435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Tearline_R_Pbr_HDRP.png
+  artifactKey: Guid(8cc6119abd7666b4e9a69a6fb500ac3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Tearline_R_Pbr_HDRP.png using Guid(8cc6119abd7666b4e9a69a6fb500ac3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7acf7aa0dadeedfa5c6183d6b494d16a') in 0.446854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Tongue_Pbr_ao.png
+  artifactKey: Guid(f574b5bb0112bf948af22fa5f54d466a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Tongue_Pbr_ao.png using Guid(f574b5bb0112bf948af22fa5f54d466a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd67a544e68e64f15ae61e595ae4eeb7d') in 0.177776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Tongue_Pbr_GradAO.jpg
+  artifactKey: Guid(d05047676976072429b9487573919f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Tongue_Pbr_GradAO.jpg using Guid(d05047676976072429b9487573919f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4be680ba160769005f4fbe5315cd70b2') in 0.063984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_HDRP.png
+  artifactKey: Guid(dfba26a496a2bba4185ddbfcb954f690) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_HDRP.png using Guid(dfba26a496a2bba4185ddbfcb954f690) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da292a22b18fc1a734b07509b6a97b61') in 0.451646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Underwear_Bottoms_Pbr_MetallicAlpha.png
+  artifactKey: Guid(79ec420ac434a8748a9e88213de2400b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Underwear_Bottoms_Pbr_MetallicAlpha.png using Guid(79ec420ac434a8748a9e88213de2400b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60df0c47cc2cdbace6598bf719d020ee') in 0.089346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map1.mat
+  artifactKey: Guid(6d22247e7ec78ad40ad752d214ffdba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HousePack/Models/House1/Materials/map1.mat using Guid(6d22247e7ec78ad40ad752d214ffdba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64cc41759e4e398f68d3f5d7ac638ec2') in 0.065974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_MetallicAlpha.png
+  artifactKey: Guid(2eb5c31d9912fd242ab6a8e407075132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_MetallicAlpha.png using Guid(2eb5c31d9912fd242ab6a8e407075132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b11e87b6ce3bc3f513cdcc3a80df12b8') in 0.053661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Leg_Pbr_TransMap.png
+  artifactKey: Guid(785ba6a2fca4226498542df8dff0d931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Leg_Pbr_TransMap.png using Guid(785ba6a2fca4226498542df8dff0d931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ed38583fa4a897bf70985400ad4dcce') in 0.137328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CC_Assets/HS013/Materials/HS013/Std_Eye_Occlusion_R_Pbr.mat
+  artifactKey: Guid(3c5f5c8e764409742b1676cc293e72d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/Materials/HS013/Std_Eye_Occlusion_R_Pbr.mat using Guid(3c5f5c8e764409742b1676cc293e72d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74363345f9ecb8d61743924ce1d777ad') in 0.045595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+  artifactKey: Guid(83c81407209f85e4c87c0cda8b32868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs using Guid(83c81407209f85e4c87c0cda8b32868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '533e683d1703ccbd1a51b8aba8c5c3b0') in 0.094978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HousePack/Models/House1/Textures/map4.bmp
+  artifactKey: Guid(eb0f39adc7449db49aba8b4a9892ab94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HousePack/Models/House1/Textures/map4.bmp using Guid(eb0f39adc7449db49aba8b4a9892ab94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '607117decfe5536ef4c33520bc388672') in 0.125219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HousePack/Models/House1/Materials/map9.mat
+  artifactKey: Guid(85858c05d24b07741bc6d951c6a1258a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HousePack/Models/House1/Materials/map9.mat using Guid(85858c05d24b07741bc6d951c6a1258a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2faa45a0cc14804dd2f2584186632104') in 0.085588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Leg_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(5c7b552b1c549a3469fc844bf3725821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Leg_Pbr_ResourceMap_Position.png using Guid(5c7b552b1c549a3469fc844bf3725821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8423ce3b727acce481147e14384465d') in 0.080891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+  artifactKey: Guid(521b611700410be45810047f0a74e899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs using Guid(521b611700410be45810047f0a74e899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b22772090c5eec042707d6b4a301f38b') in 0.030244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+  artifactKey: Guid(d89ea37480b6d75458aa38843e9688dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx using Guid(d89ea37480b6d75458aa38843e9688dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd46d1392373c002ade5aa164c25d3f52') in 0.096870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6227b8cb42d033f7467dacf949a94536') in 0.107461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Upper_Teeth_Pbr_MetallicAlpha.png
+  artifactKey: Guid(e41c5c244a610924c9ebc19b196e0e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Upper_Teeth_Pbr_MetallicAlpha.png using Guid(e41c5c244a610924c9ebc19b196e0e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e18990d547d4483fb8eac8142da97e06') in 0.135129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Nails_Pbr_RGBAMask.tga
+  artifactKey: Guid(2699309e8e3515342869eea8ccd1f398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Nails_Pbr_RGBAMask.tga using Guid(2699309e8e3515342869eea8ccd1f398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '999f316911225c5a0724c752691cbb59') in 0.178859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs
+  artifactKey: Guid(fb9e837aae6395d48b1182bee201f814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs using Guid(fb9e837aae6395d48b1182bee201f814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20e4b765c07046929660f3093cfc9ecf') in 0.347574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs
+  artifactKey: Guid(1ee34fdb2d383a84e9ef60c30fc2778e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs using Guid(1ee34fdb2d383a84e9ef60c30fc2778e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c8cc2b72aca8b58ef71046b65950b8a') in 0.086327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs
+  artifactKey: Guid(6f947e56d54f4274896478766fef616c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs using Guid(6f947e56d54f4274896478766fef616c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6c6d02641fedde29ebad0fd8ce27c01') in 0.130474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs
+  artifactKey: Guid(3ea65b38d485c374caa584a03f1de571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs using Guid(3ea65b38d485c374caa584a03f1de571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bda73a2726e1570b516eb3670ca55324') in 0.092127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Tearline_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(8d362853c42bf4340aff4823bff5a9be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Tearline_L_Pbr_MetallicAlpha.png using Guid(8d362853c42bf4340aff4823bff5a9be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '678c14afe5a36bf18c72096e849a8080') in 0.025676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_CFULCMask.tga
+  artifactKey: Guid(8e51a2e4e5d9a3d4a9a6e494cbb25266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Head_Pbr_CFULCMask.tga using Guid(8e51a2e4e5d9a3d4a9a6e494cbb25266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ff80c66b5a1a63818cbfa0aaf93be06') in 0.078954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe664460abefc290f4f45fedb202d9f4') in 0.106344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_SpecMask.jpg
+  artifactKey: Guid(ea9c17a8fab7e62489738015178a32a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_SpecMask.jpg using Guid(ea9c17a8fab7e62489738015178a32a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bfd209615f75255410c8aa503380834') in 0.151663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_MetallicAlpha.png
+  artifactKey: Guid(9863254eaf4d8de4695dca953c3760e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_MetallicAlpha.png using Guid(9863254eaf4d8de4695dca953c3760e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2764acd2002a14c5a81716d6929f6d59') in 0.054942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_HDRP.png
+  artifactKey: Guid(844900b9746eb9b4a86c7ac208498d8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_HDRP.png using Guid(844900b9746eb9b4a86c7ac208498d8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa89318ee9b738068ae8b67a686dbc0a') in 0.193771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_HDRP.png
+  artifactKey: Guid(fb8a6d29cb300fe4fac4935fb0f58197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_HDRP.png using Guid(fb8a6d29cb300fe4fac4935fb0f58197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea5f5f3a9dc819a15007d6b252925121') in 0.023700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Leg_Pbr_TransMap.png
+  artifactKey: Guid(2032187c1d185ff4998edbfb49536c2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Leg_Pbr_TransMap.png using Guid(2032187c1d185ff4998edbfb49536c2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad93029d486035ffc9b3d71c3c77af17') in 0.069838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Low_rise_Shorts_Pbr.mat
+  artifactKey: Guid(dcd2a2aed91f97c469d1c6f0d2c59f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Low_rise_Shorts_Pbr.mat using Guid(dcd2a2aed91f97c469d1c6f0d2c59f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7bfa41f10d8b24a78163f264b6d5bbb') in 0.241943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+  artifactKey: Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx using Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3b986e8b13d2ad8106adca9f9e1b758') in 0.287019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_MicroNMask.jpg
+  artifactKey: Guid(2969c3e1fbf11934984090aade58bf72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Head_Pbr_MicroNMask.jpg using Guid(2969c3e1fbf11934984090aade58bf72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e6e3ae4c4111c705de318c4ef1519c2') in 0.025326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_MicroNMask.jpg
+  artifactKey: Guid(8d4fbbbacb5227a40898e2953c1894ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Body_Pbr_MicroNMask.jpg using Guid(8d4fbbbacb5227a40898e2953c1894ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e7889a7011905eaf4aac43780388fe4') in 0.069785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Std_Skin_Leg_Pbr.mat
+  artifactKey: Guid(acedcdba344a20e409e597a74dbdc2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Std_Skin_Leg_Pbr.mat using Guid(acedcdba344a20e409e597a74dbdc2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2000162fa7eb43d4a54cc6f1f623584') in 0.403377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs
+  artifactKey: Guid(b297a60c0ddf0ee4dabefaf158fb097d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs using Guid(b297a60c0ddf0ee4dabefaf158fb097d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0e6e891d49c959979329cd8027786a1') in 0.023121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CC_Assets/HS013/Materials/HS013/Underwear_Bottoms_Pbr.mat
+  artifactKey: Guid(bb449a39a7af0504eae03a40cc0ef02e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/Materials/HS013/Underwear_Bottoms_Pbr.mat using Guid(bb449a39a7af0504eae03a40cc0ef02e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e27699ddb6049f96a747a966dd7a00e9') in 0.126685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs
+  artifactKey: Guid(daa7e0829bc72c94babd728cc0466196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs using Guid(daa7e0829bc72c94babd728cc0466196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'decfa0a9b3030fc6b152eab200b2b92f') in 0.073746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_ResourceMap_WSNormal.png
+  artifactKey: Guid(76a3eaec1375e254297a37504066d039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Eyelash_Pbr_ResourceMap_WSNormal.png using Guid(76a3eaec1375e254297a37504066d039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a69436049ecc0607944c36aeceb5f64a') in 0.042194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_R_Pbr_Sclera.jpg
+  artifactKey: Guid(1751f7f298ecefc4a817e33aed9e8816) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_R_Pbr_Sclera.jpg using Guid(1751f7f298ecefc4a817e33aed9e8816) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd130200cf0b2d5719828854a91a46475') in 0.039578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Tearline_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(ce43a99dac0aae748a7abce3d903ac65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Tearline_L_Pbr_MetallicAlpha.png using Guid(ce43a99dac0aae748a7abce3d903ac65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b464519faf8662bbf9812e74a5e38ac') in 0.059380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_RGBAMask.tga
+  artifactKey: Guid(d2a19d68ec049d14da8f4a5d57357483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Leg_Pbr_RGBAMask.tga using Guid(d2a19d68ec049d14da8f4a5d57357483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfb20541dd9d90dc89745bd07cac7356') in 0.023320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_MicroN.png
+  artifactKey: Guid(8198993422e750a4e80cd06885610053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Nails_Pbr_MicroN.png using Guid(8198993422e750a4e80cd06885610053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '318ea4f6b1dd2ad7d47d1afb6b3d5c47') in 0.342319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs
+  artifactKey: Guid(9ec1e45165d1f2544bff59f5a80db8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs using Guid(9ec1e45165d1f2544bff59f5a80db8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6b286ce33a86f82db451a490f53179a') in 0.072908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs
+  artifactKey: Guid(a3d3ef1a5bbfb4e0a910fbbe5830b1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs using Guid(a3d3ef1a5bbfb4e0a910fbbe5830b1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70a6a1bc46193db3d64cba2b9b6f59b5') in 0.084581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs
+  artifactKey: Guid(c62479c3465024b48b42983b1b2eeaaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs using Guid(c62479c3465024b48b42983b1b2eeaaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7fa34ef6dfffe0fc602c05bf6467d2e') in 0.101042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Arm_Pbr_RGBAMask.tga
+  artifactKey: Guid(827ef7e7c50a24046ad999f4142e8055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Arm_Pbr_RGBAMask.tga using Guid(827ef7e7c50a24046ad999f4142e8055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85f46e5da4a541c41a48bd1189a27309') in 0.074300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Std_Cornea_L_Pbr.mat
+  artifactKey: Guid(fd087406a4166864691bf462adce6502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Std_Cornea_L_Pbr.mat using Guid(fd087406a4166864691bf462adce6502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0dd3224dab623ed030126c70f13dae0f') in 0.305208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_HDRP.png
+  artifactKey: Guid(b174efbd4681b9c4da61fa23471e6d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Skin_Body_Pbr_HDRP.png using Guid(b174efbd4681b9c4da61fa23471e6d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '462bce8e6605dbe260e92bb6d980804c') in 0.071211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Lower_Teeth_Pbr_HDRP.png
+  artifactKey: Guid(0242e5d7860737b4a977bd7e3b12bdc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Lower_Teeth_Pbr_HDRP.png using Guid(0242e5d7860737b4a977bd7e3b12bdc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cc9bbc2dfe2b906b27fddbca1407bcd') in 0.176842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Eye_R_Pbr_MetallicAlpha.png
+  artifactKey: Guid(338cb87f0c4eb9241a5946e3d7a19830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Eye_R_Pbr_MetallicAlpha.png using Guid(338cb87f0c4eb9241a5946e3d7a19830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e120a12d926317d5b78fd351ce9b4490') in 0.046337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CC_Assets/HS015/Materials/HS015/Std_Tearline_R_Pbr.mat
+  artifactKey: Guid(b0e764a8bd2a5ea4f996c9b1241b5658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/Materials/HS015/Std_Tearline_R_Pbr.mat using Guid(b0e764a8bd2a5ea4f996c9b1241b5658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00e51146ed39cb9b77761a1193b4a3c7') in 0.047829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Body_Pbr_ResourceMap_Position.png
+  artifactKey: Guid(ae1bc3fad8fcdc74daccad354f0d4722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Skin_Body_Pbr_ResourceMap_Position.png using Guid(ae1bc3fad8fcdc74daccad354f0d4722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73c82a2c7b4978c599b7af93af95c7b0') in 0.080516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Eye_Occlusion_R_Pbr_MetallicAlpha.png
+  artifactKey: Guid(148f96e3a94d59f449fe420fcc55732d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Eye_Occlusion_R_Pbr_MetallicAlpha.png using Guid(148f96e3a94d59f449fe420fcc55732d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cd70ebc7a7a4058dd06f44c47f82e21') in 0.059608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Lower_Teeth_Pbr_ao.jpg
+  artifactKey: Guid(dcbdaaecea82ca14aa961a8f0c2b2e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Lower_Teeth_Pbr_ao.jpg using Guid(dcbdaaecea82ca14aa961a8f0c2b2e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '719df560e8bdda54761bbcd70e1da55d') in 0.123200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Eye_Occlusion_L_Pbr_MetallicAlpha.png
+  artifactKey: Guid(7cd90fc03b64b7647982880a3e4ed7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Eye_Occlusion_L_Pbr_MetallicAlpha.png using Guid(7cd90fc03b64b7647982880a3e4ed7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc0ff07a679ccd9f95e6bee1d1a32cd2') in 0.184387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_L_Pbr_HDRP.png
+  artifactKey: Guid(fe3cbad8d8c5f02489959a71c91a1596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS013/textures/HS013/Std_Cornea_L_Pbr_HDRP.png using Guid(fe3cbad8d8c5f02489959a71c91a1596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0faaf3e241190d79f3b894baf7828fdc') in 0.127314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_ENMask.tga
+  artifactKey: Guid(8649b23dc98840047b5523afecdb6a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS008/textures/HS008/Std_Skin_Head_Pbr_ENMask.tga using Guid(8649b23dc98840047b5523afecdb6a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f405cc9e178f7d7061239d018a5a2e83') in 0.042286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CC_Assets/HS015/textures/HS015/Std_Lower_Teeth_Pbr_ao.jpg
+  artifactKey: Guid(a4261a1cb6ea2ef468054b6ead066b33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CC_Assets/HS015/textures/HS015/Std_Lower_Teeth_Pbr_ao.jpg using Guid(a4261a1cb6ea2ef468054b6ead066b33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d05b00f8b877a6ecaf7bb32da3153a7') in 0.093450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
