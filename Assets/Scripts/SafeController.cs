@@ -25,25 +25,12 @@ public class SafeController : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left mouse button click
         {
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
+            Ray raySafe = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(raySafe, out hit))
             {
                 if (hit.collider.gameObject == safe)
                 {
                    OpenSafe();
-                }
-                if (hit.collider.CompareTag("Keypad"))
-                {
-                    Debug.LogWarning("Keypad clicked.");
-                    if (zoomCamera != null)
-                    {
-                        mainCamera.enabled = false;
-                        zoomCamera.enabled = true;
-                    }
-                }
-                else
-                {
-                    Debug.LogWarning("Keypad not clicked.");
                 }
             }   
         }

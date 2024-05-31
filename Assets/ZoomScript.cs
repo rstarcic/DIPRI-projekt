@@ -28,28 +28,34 @@ public class ZoomScript : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray2 = zoomCamera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
                 if (hit.transform.CompareTag("Keypad"))
                 {
                     Debug.Log("Clicked on the keypad!");
-
-                    mainCamera.enabled = false;
                     if (zoomCamera != null)
                     {
                         zoomCamera.enabled = true;
                         Debug.Log("Zoom camera enabled!");
                     }
-                    else
-                    {                        
-                        Debug.LogError("Zoom camera reference is not set!");
+                }
+            }
+            if (Physics.Raycast(ray2, out hit))
+            {
+                if (hit.transform.CompareTag("Safe"))
+                {
+                    Debug.Log("Clicked on the safe!");
+
+                    zoomCamera.enabled = false;
+                    if (mainCamera != null)
+                    {
+                        mainCamera.enabled = true;
+                        Debug.Log("Main camera enabled!");
                     }
                 }
-                else
-                {
-                    Debug.Log("Clicked outside keyboard!");
-                }
+
             }
         }
     }
