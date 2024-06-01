@@ -374,8 +374,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: 01089b442d984384bb9596df60e8483f, type: 2}
     - target: {fileID: 5866666021909216657, guid: 3daadc2a4a65c1943a21801f43fe57e5, type: 3}
-      propertyPath: m_ApplyRootMotion
+      propertyPath: m_CullingMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3daadc2a4a65c1943a21801f43fe57e5, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -423,11 +427,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.1
-  m_Speed: 0.3
-  m_Acceleration: 8
+  m_Speed: 1
+  m_Acceleration: 5
   avoidancePriority: 50
-  m_AngularSpeed: 0
-  m_StoppingDistance: 0
+  m_AngularSpeed: 300
+  m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -500,7 +504,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -511,13 +515,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30469040}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e41688ecd9b645b44a10c5091c6b842e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isActiveCharacter: 1
-  cam1: {fileID: 1281095759}
 --- !u!114 &30469047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,7 +528,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30469040}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0231e43f24f148459608496acff5f4f, type: 3}
   m_Name: 
