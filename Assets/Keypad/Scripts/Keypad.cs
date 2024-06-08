@@ -42,7 +42,9 @@ namespace NavKeypad
         private string currentInput;
         private bool displayingResult = false;
         private bool accessWasGranted = false;
-
+        public Camera mainCamera;
+        public Camera zoomCamera;
+        public Animator safeAnimator;
 
 
         private void Awake()
@@ -55,6 +57,7 @@ namespace NavKeypad
         //Gets value from pressedbutton
         public void AddInput(string input)
         {
+            Debug.Log("Function addinput started:");
             audioSource.PlayOneShot(buttonClickedSfx);
             if (displayingResult || accessWasGranted) return;
             switch (input)
@@ -106,7 +109,7 @@ namespace NavKeypad
 
         }
 
-        private void AccessDenied()
+        public void AccessDenied()
         {
             keypadDisplayText.text = accessDeniedText;
             onAccessDenied?.Invoke();
@@ -120,15 +123,29 @@ namespace NavKeypad
             keypadDisplayText.text = currentInput;
         }
 
-        private void AccessGranted()
+        public void AccessGranted()
         {
             accessWasGranted = true;
+            Debug.Log("Access: " + accessWasGranted);
+            if (accessWasGranted)
+            {
+                Debug.Log("Access grantedd!!");
+                if (mainCamera != null && zoomCamera != null)
+                {
+
+                    mainCamera.enabled = true;
+                    zoomCamera.enabled = false;
+                }
+                if (safeAnimator != null)
+                {
+                    safeAnimator.SetBool("isOpen", true);
+                }
+            }
             keypadDisplayText.text = accessGrantedText;
             onAccessGranted?.Invoke();
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
             slidingDoor.ToggleDoor();
         }
-
     }
 }

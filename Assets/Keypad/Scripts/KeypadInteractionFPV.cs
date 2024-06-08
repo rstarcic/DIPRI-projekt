@@ -5,11 +5,17 @@ using UnityEngine;
 namespace NavKeypad { 
 public class KeypadInteractionFPV : MonoBehaviour
 {
-    private Camera cam;
-    private void Awake() => cam = Camera.main;
-    private void Update()
+    public Camera zoomCam;
+        private void Awake()
+        {
+            if (zoomCam == null)
+            {
+                Debug.LogError("Zoom camera reference is not set!");
+            }
+        }
+        private void Update()
     {
-        var ray = cam.ScreenPointToRay(Input.mousePosition);
+        var ray = zoomCam.ScreenPointToRay(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(0))
         {

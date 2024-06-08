@@ -14,16 +14,16 @@ namespace NavKeypad
         [Header("Component References")]
         [SerializeField] private Keypad keypad;
 
-
         public void PressButton()
         {
             if (!moving)
             {
+                Debug.Log("Button clicked: " + value); 
                 keypad.AddInput(value);
                 StartCoroutine(MoveSmooth());
             }
         }
-        private bool moving;
+        private bool moving = false;
 
         private IEnumerator MoveSmooth()
         {
