@@ -10,6 +10,7 @@ TagManager:
   - Safe
   - Diary
   - Fridge
+  - Drawing
   layers:
   - Default
   - TransparentFX

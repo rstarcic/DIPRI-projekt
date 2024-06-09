@@ -18,7 +18,7 @@ public class MovementLivingRoom : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button click
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = PlayerCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Drawer") || hit.collider.CompareTag("Drawer1"))
             {
