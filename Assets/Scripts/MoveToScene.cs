@@ -9,7 +9,7 @@ public class MoveToScene : MonoBehaviour
 
     public void Move(int sceneID)
     {
+        PlayerPrefs.SetInt("previousScene", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(sceneID,LoadSceneMode.Single);
-
     }
 }
