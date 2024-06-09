@@ -16,7 +16,7 @@ public class MovementLivingRoom : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)) // Right mouse button click
+        if (Input.GetMouseButtonDown(0)) // Left mouse button click
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -28,18 +28,20 @@ public class MovementLivingRoom : MonoBehaviour
             {
                 fridgeBehaviour.ToggleDoor();
             }
-            else
+         /*   else
             {
                 agent.SetDestination(hit.point);
 
             }
+         */
         }
-
-        if (Input.GetMouseButton(0)) // Left mouse button press
+        /*
+        if (Input.GetMouseButton(1)) // Right mouse button press
         {
             PlayerCamera.transform.RotateAround(agent.nextPosition,
                                                 Vector3.up,
                                                 -Input.GetAxis("Mouse X") * 10);
         }
+        */
     }
 }
