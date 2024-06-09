@@ -9,6 +9,7 @@ TagManager:
   - Keypad
   - Safe
   - Diary
+  - Fridge
   layers:
   - Default
   - TransparentFX
