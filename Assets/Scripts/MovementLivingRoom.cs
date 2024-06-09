@@ -8,6 +8,7 @@ public class MovementLivingRoom : MonoBehaviour
     private NavMeshAgent agent;
     public Camera PlayerCamera;
     public DrawerAnimationBehaviour drawerBehaviour;
+    public OpenFridgeDoor fridgeBehaviour;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -22,6 +23,10 @@ public class MovementLivingRoom : MonoBehaviour
             if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Drawer") || hit.collider.CompareTag("Drawer1"))
             {
                 drawerBehaviour.ToggleDrawer();
+            }
+            else if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Fridge"))
+            {
+                fridgeBehaviour.ToggleDoor();
             }
             else
             {
