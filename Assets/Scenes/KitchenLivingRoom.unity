@@ -4045,6 +4045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695d8362a049246cbb5062f64feed779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fade: {fileID: 0}
 --- !u!114 &866326243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6843,7 +6844,6 @@ GameObject:
   - component: {fileID: 1288876384}
   - component: {fileID: 1288876383}
   - component: {fileID: 1288876382}
-  - component: {fileID: 1288876385}
   m_Layer: 0
   m_Name: BirthdayDrawing
   m_TagString: Drawing
@@ -6937,18 +6937,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288876380}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1288876385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288876380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b21c8f639cb09e644ad7856489b60a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1322239700
 GameObject:
   m_ObjectHideFlags: 0
