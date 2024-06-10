@@ -11,6 +11,8 @@ TagManager:
   - Diary
   - Fridge
   - Drawing
+  - AtticDoor
+  - NotKeypad
   layers:
   - Default
   - TransparentFX
