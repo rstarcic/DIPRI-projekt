@@ -35,6 +35,9 @@ public class ZoomScriptForAttic : MonoBehaviour
             case 6: // Index of the andy room scene
                 mainCamera = andyRoomCamera;
                 break;
+            case 10: // Index of the attic scene
+                mainCamera = atticCamera;
+                break;
             default:
                 Debug.LogWarning("Previous scene index not recognized. Using default camera.");
                 // Assign a default camera if the index is not recognized

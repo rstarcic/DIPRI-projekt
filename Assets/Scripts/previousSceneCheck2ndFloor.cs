@@ -60,7 +60,15 @@ public class previousSceneCheck : MonoBehaviour
             PlayerWC.SetActive(true);
             PlayerSonRoom.SetActive(false);
         }
-        //fali jos za tavan
+        else if (previousScene == 10)
+        {
+            PlayerHallway.SetActive(false);
+            PlayerParentsRoom.SetActive(false);
+            PlayerAttic.SetActive(true);
+            PlayerDoughterRoom.SetActive(false);
+            PlayerWC.SetActive(false);
+            PlayerSonRoom.SetActive(false);
+        }
     }
 
     
