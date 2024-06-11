@@ -3,7 +3,7 @@ using UnityEngine;
 public class ZoomScript : MonoBehaviour
 {
     public Camera mainCamera;
-    public Camera zoomCamera;
+    public GameObject zoomCamera;
 
     void Start()
     {
@@ -18,7 +18,7 @@ public class ZoomScript : MonoBehaviour
 
         if (zoomCamera != null)
         {
-            zoomCamera.enabled = false;
+            zoomCamera.SetActive(false);
         }
     }
 
@@ -28,7 +28,7 @@ public class ZoomScript : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-            Ray ray2 = zoomCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray2 = zoomCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
@@ -37,7 +37,7 @@ public class ZoomScript : MonoBehaviour
                     Debug.Log("Clicked on the keypad!");
                     if (zoomCamera != null)
                     {
-                        zoomCamera.enabled = true;
+                        zoomCamera.SetActive(true);
                         Debug.Log("Zoom camera enabled!");
                     }
                 }
@@ -48,7 +48,7 @@ public class ZoomScript : MonoBehaviour
                 {
                     Debug.Log("Clicked on the safe!");
 
-                    zoomCamera.enabled = false;
+                    zoomCamera.SetActive(false);
                     if (mainCamera != null)
                     {
                         mainCamera.enabled = true;

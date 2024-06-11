@@ -11,22 +11,11 @@ public class ZoomScriptForAttic : MonoBehaviour
     public Camera bathroomCamera;
     public Camera andyRoomCamera;
 
-    public Camera zoomCamera;
+    public GameObject zoomCamera;
     private Camera mainCamera;
 
     void Start()
-    {/*
-        Camera[] cameras = { firstfloorCamera, parentsRoomCamera, atticCamera, daisyRoomCamera, bathroomCamera, andyRoomCamera };
-
-        foreach (Camera cam in cameras)
-        {
-            if (cam != null && cam.enabled)
-            {
-                Debug.Log("Kameraaaaa" + cam);
-                mainCamera = cam;
-                break;
-            }
-        } */
+    {
         int previousScene = PlayerPrefs.GetInt("previousScene");
 
         switch (previousScene)
@@ -52,8 +41,8 @@ public class ZoomScriptForAttic : MonoBehaviour
                 mainCamera = firstfloorCamera;
                 break;
         }
-        zoomCamera.enabled = false;
-      //  mainCamera = Camera.current.GetComponent<Camera>();
+        //zoomCamera.SetActive(false);
+      
         if (mainCamera == null)
         {
             Debug.LogError("Main camera reference is not set!");
@@ -65,7 +54,7 @@ public class ZoomScriptForAttic : MonoBehaviour
 
         if (zoomCamera != null)
         {
-            zoomCamera.enabled = false;
+            zoomCamera.SetActive(false);
         }
     }
 
@@ -75,7 +64,7 @@ public class ZoomScriptForAttic : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-            Ray ray2 = zoomCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray2 = zoomCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
@@ -84,7 +73,7 @@ public class ZoomScriptForAttic : MonoBehaviour
                     Debug.Log("Clicked on the keypad!");
                     if (zoomCamera != null)
                     {
-                        zoomCamera.enabled = true;
+                        zoomCamera.SetActive(true);
                         Debug.Log("Zoom camera enabled!");
                     }
                 }
@@ -95,7 +84,7 @@ public class ZoomScriptForAttic : MonoBehaviour
                 {
                     Debug.Log("Clicked on the notKeypad!");
 
-                    zoomCamera.enabled = false;
+                    zoomCamera.SetActive(false);
                     if (mainCamera != null)
                     {
                         mainCamera.enabled = true;
