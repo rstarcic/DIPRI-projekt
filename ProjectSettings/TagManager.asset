@@ -15,6 +15,7 @@ TagManager:
   - NotKeypad
   - Car
   - Desk
+  - Phone
   layers:
   - Default
   - TransparentFX
