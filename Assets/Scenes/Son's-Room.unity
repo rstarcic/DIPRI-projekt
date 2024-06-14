@@ -1833,8 +1833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1028833318}
-  minTime: 0
-  maxTime: 0
+  minTime: 0.1
+  maxTime: 2
 --- !u!108 &1028833318
 Light:
   m_ObjectHideFlags: 0
