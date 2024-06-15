@@ -6,26 +6,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class TextScript : MonoBehaviour
+public class EnterTrigger : MonoBehaviour
 {
-    public TextMeshProUGUI textMesh;
+    public GameObject button;
     
     void Start()
     {
-        
-        textMesh.GetComponent<TextMeshProUGUI>();
-        textMesh.gameObject.SetActive(false);
+        button.gameObject.SetActive(false);
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
-            textMesh.gameObject.SetActive(true);
+            button.gameObject.SetActive(true);
         }
     }
     public void OnTriggerExit(Collider other)
     {
-        textMesh.gameObject.SetActive(false);
+        button.gameObject.SetActive(false);
     }
 }
