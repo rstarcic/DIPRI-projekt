@@ -16,6 +16,7 @@ TagManager:
   - Car
   - Desk
   - Phone
+  - Item
   layers:
   - Default
   - TransparentFX

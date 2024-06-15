@@ -12,6 +12,25 @@ public class InvManager : MonoBehaviour
     public void Awake()
     {
         Instance = this;
+        
+    }
+
+    public void Update()
+    {
+        GameObject[] itemsOnScene= GameObject.FindGameObjectsWithTag("Item");
+        foreach(GameObject item in itemsOnScene)
+        {
+            ItemController ctrl = item.GetComponent<ItemController>();
+            int a = ctrl.item.id;
+            foreach(Item it in Items)
+            {
+                if(it.id==a)
+                {
+                    Destroy(item);
+                }
+                
+            }
+        }
     }
 
      public void Add(Item item)
@@ -33,8 +52,8 @@ public class InvManager : MonoBehaviour
             itemName.text = item.itemName;
             itemIcon.sprite=item.icon;
             
-
         }
     }
+    
 }
 
