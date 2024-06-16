@@ -4,7 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+//using UnityEngine.UIElements;
 
 public class EnterTrigger : MonoBehaviour
 {
@@ -12,18 +12,22 @@ public class EnterTrigger : MonoBehaviour
     
     void Start()
     {
-        button.gameObject.SetActive(false);
+        Collider bttn = button.GetComponent<Collider>();
+        //button.gameObject.SetActive(false);
+        bttn.enabled=false;
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
-            button.gameObject.SetActive(true);
+            Collider bttn = button.GetComponent<Collider>();
+            bttn.enabled=true;
         }
     }
     public void OnTriggerExit(Collider other)
     {
-        button.gameObject.SetActive(false);
+        Collider bttn = button.GetComponent<Collider>();
+        bttn.enabled=false;
     }
 }
