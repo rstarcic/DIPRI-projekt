@@ -17,6 +17,7 @@ TagManager:
   - Desk
   - Phone
   - Item
+  - NoKey
   layers:
   - Default
   - TransparentFX

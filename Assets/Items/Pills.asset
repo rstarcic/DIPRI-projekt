@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394a5cda0fa0449868cc8bb96a9c0a88, type: 3}
-  m_Name: Fire
+  m_Name: Pills
   m_EditorClassIdentifier: 
-  id: 0
-  itemName: Fire
-  icon: {fileID: 21300000, guid: 062eeb9d5e8ba8f45a9ddfea52518f82, type: 3}
+  id: 1
+  itemName: Pills
+  icon: {fileID: 21300000, guid: 4d2a4136ebef6f041b43fdca42412caa, type: 3}
