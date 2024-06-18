@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   itemName: Pills
-  icon: {fileID: 21300000, guid: 4d2a4136ebef6f041b43fdca42412caa, type: 3}
+  icon: {fileID: 21300000, guid: 41b85aa97b2b77c488f36c0c86c01568, type: 3}

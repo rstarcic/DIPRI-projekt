@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   itemName: Bloody knife
-  icon: {fileID: 21300000, guid: 4d2a4136ebef6f041b43fdca42412caa, type: 3}
+  icon: {fileID: 21300000, guid: b03722f4e30435a439c0d3e548ad2151, type: 3}

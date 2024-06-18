@@ -20,7 +20,7 @@ public class MovementLivingRoom : MonoBehaviour
         {
             Ray ray = PlayerCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Drawer") || hit.collider.CompareTag("Drawer1"))
+            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Drawer"))
             {
                 drawerBehaviour.ToggleDrawer();
             }

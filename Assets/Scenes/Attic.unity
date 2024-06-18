@@ -21303,6 +21303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneId: 5
+  requresKey: 0
+  keyid: 0
+  text: {fileID: 0}
 --- !u!114 &1672867381
 MonoBehaviour:
   m_ObjectHideFlags: 0

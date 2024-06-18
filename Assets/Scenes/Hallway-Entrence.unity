@@ -171,6 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneId: 4
+  requresKey: 0
+  keyid: 0
+  text: {fileID: 0}
 --- !u!114 &24200318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6296,6 +6299,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneId: 5
+  requresKey: 0
+  keyid: 0
+  text: {fileID: 0}
 --- !u!65 &1411185075
 BoxCollider:
   m_ObjectHideFlags: 0
