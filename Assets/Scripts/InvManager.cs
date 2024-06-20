@@ -55,6 +55,19 @@ public class InvManager : MonoBehaviour
             
         }
     }
-    
+    public bool HasItem(int id)
+    {
+        return Items.Exists(item => item.id == id);
+    }
+
+    public void Remove(int id)
+    {
+        Item itemToRemove = Items.Find(item => item.id == id);
+        if (itemToRemove != null)
+        {
+            Items.Remove(itemToRemove);
+        }
+    }
+
 }
 

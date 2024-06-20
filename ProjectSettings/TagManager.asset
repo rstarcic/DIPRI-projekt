@@ -18,6 +18,7 @@ TagManager:
   - Phone
   - Item
   - NoKey
+  - Note
   layers:
   - Default
   - TransparentFX
