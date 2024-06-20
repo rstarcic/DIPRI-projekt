@@ -38,6 +38,7 @@ public class InvManager : MonoBehaviour
         Items.Add(item);
     }
 
+
     public void ListItems()
     {
         foreach(Transform item in contents)

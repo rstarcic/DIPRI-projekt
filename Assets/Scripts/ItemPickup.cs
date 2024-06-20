@@ -8,12 +8,17 @@ public class ItemPickup : MonoBehaviour
 
     void pickup()
     {
-        InvManager.Instance.Add(item);
-        Destroy(gameObject);
+        if(InvManager.Instance.Items.Count<4)
+        {
+            InvManager.Instance.Add(item);
+            Destroy(gameObject);
+        }
+        else {Debug.Log("previse");}
     }
 
     private void OnMouseDown()
     {
         pickup();
     }
+    
 }

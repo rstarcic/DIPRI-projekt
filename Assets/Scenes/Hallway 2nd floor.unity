@@ -1123,7 +1123,7 @@ GameObject:
   - component: {fileID: 205362504}
   - component: {fileID: 205362503}
   - component: {fileID: 205362505}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Stairs1stFloorClooider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
