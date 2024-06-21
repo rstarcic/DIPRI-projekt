@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: KeyWC
   m_EditorClassIdentifier: 
   id: 4
-  itemName: Room key
+  itemName: Room key 1
   icon: {fileID: 21300000, guid: 93ccbd4e9d3211e49b75b7ad53dce50b, type: 3}
