@@ -8,12 +8,13 @@ public class MovementScript : MonoBehaviour
     private NavMeshAgent agent;
     public Camera cam1;
     Animator playerAnim;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         playerAnim = GetComponent<Animator>();
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +29,10 @@ public class MovementScript : MonoBehaviour
                 agent.SetDestination(hit.point);
                 print("Walk");
                 playerAnim.SetBool("Walk", true);
+                if(!audioSource.isPlaying)
+                {
+                    audioSource.Play();
+                }
             }
     
         }
@@ -38,6 +43,7 @@ public class MovementScript : MonoBehaviour
                 if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
                 {
                    playerAnim.SetBool("Walk", false);
+                    audioSource.Stop();
                 }
             }
 }
