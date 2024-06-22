@@ -20,6 +20,7 @@ TagManager:
   - NoKey
   - Note
   - invLimit
+  - NotSafe
   layers:
   - Default
   - TransparentFX

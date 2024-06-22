@@ -42,8 +42,9 @@ namespace NavKeypad
         private string currentInput;
         private bool displayingResult = false;
         private bool accessWasGranted = false;
-        public Camera mainCamera;
-        public Camera zoomCamera;
+        public GameObject mainCamera;
+        public GameObject zoomCamera;
+        public GameObject zoomCamera1;
         public Animator safeAnimator;
 
 
@@ -132,9 +133,9 @@ namespace NavKeypad
                 Debug.Log("Access grantedd!!");
                 if (mainCamera != null && zoomCamera != null)
                 {
-
-                    mainCamera.enabled = true;
-                    zoomCamera.enabled = false;
+                    zoomCamera1.SetActive(true);
+                    mainCamera.SetActive(false);
+                    zoomCamera.SetActive(false);
                 }
                 if (safeAnimator != null)
                 {
