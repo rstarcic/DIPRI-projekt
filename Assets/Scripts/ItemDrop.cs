@@ -7,8 +7,8 @@ public class ItemDrop : MonoBehaviour
     public GameObject inv;
     public void RemoveItem()
     {
-        InvManager InvManager= GameObject.FindAnyObjectByType<InvManager>();
-        //List<Item> itemsInInv =  InvManager.Items;
+        InvManager InvManager= GameObject.FindObjectOfType<InvManager>();
+       
 
         List<Item> itemsInInv = new List<Item>();
         foreach(Item it in InvManager.Items)

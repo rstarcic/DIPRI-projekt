@@ -9,10 +9,11 @@ public class InvManager : MonoBehaviour
     public List<Item> Items = new List<Item>();
     public Transform contents;
     public GameObject InventoryItem;
+
+    
     public void Awake()
     {
         Instance = this;
-        
     }
 
     public void Update()
@@ -68,6 +69,24 @@ public class InvManager : MonoBehaviour
             Items.Remove(itemToRemove);
         }
     }
+    public void invLimit()
+    {
+        displayMessage();
+        Invoke("hideMessage", 2.0f);
+    }
+
+    public void displayMessage()
+    {
+        GameObject limitText = GameObject.FindGameObjectWithTag("invLimit");
+        limitText.GetComponent<Canvas>().enabled=true; 
+    }
+    public void hideMessage()
+    {
+        GameObject limitText = GameObject.FindGameObjectWithTag("invLimit");
+        limitText.GetComponent<Canvas>().enabled=false; 
+    }
+
+    
 
 }
 

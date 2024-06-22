@@ -19,6 +19,7 @@ TagManager:
   - Item
   - NoKey
   - Note
+  - invLimit
   layers:
   - Default
   - TransparentFX
