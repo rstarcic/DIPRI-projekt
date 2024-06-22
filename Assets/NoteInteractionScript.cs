@@ -28,11 +28,12 @@ public class NoteInteractionScript : MonoBehaviour
 
     public void OnNoteClicked()
     {
-        if (InvManager.Instance.HasItem(7))
+        InvManager InvManager = GameObject.FindObjectOfType<InvManager>();
+        if (InvManager.HasItem(7))
         {
             note.SetActive(false);
             picture.SetActive(true);
-            InvManager.Instance.Remove(7);
+            InvManager.Remove(7);
             doorAnimator.SetTrigger("Open");
         }
         else
