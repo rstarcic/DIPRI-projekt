@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 0
   itemName: Fire
   icon: {fileID: 21300000, guid: 062eeb9d5e8ba8f45a9ddfea52518f82, type: 3}
+  soundItem: {fileID: 0}

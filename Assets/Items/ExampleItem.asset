@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 0
   itemName: Uselles cube
   icon: {fileID: 0}
+  soundItem: {fileID: 8300000, guid: 624d652f049f3024fa56840a0fd005a6, type: 3}

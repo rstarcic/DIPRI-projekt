@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 1
   itemName: Pills
   icon: {fileID: 21300000, guid: 41b85aa97b2b77c488f36c0c86c01568, type: 3}
+  soundItem: {fileID: 8300000, guid: 65c5ee99701e0f74697301caa91c1cab, type: 3}

@@ -27,7 +27,8 @@ public class InvManager : MonoBehaviour
             {
                 if(it.id==a)
                 {
-                    Destroy(item);
+                    //    Destroy(item);
+                    item.GetComponent<Renderer>().enabled = false;
                 }
                 
             }

@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 6
   itemName: Empty gun case
   icon: {fileID: 21300000, guid: f6ddb19480e4e3149ba86c4dbebd3834, type: 3}
+  soundItem: {fileID: 8300000, guid: 624d652f049f3024fa56840a0fd005a6, type: 3}

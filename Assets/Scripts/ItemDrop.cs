@@ -5,6 +5,13 @@ using UnityEngine;
 public class ItemDrop : MonoBehaviour
 {
     public GameObject inv;
+    public GameObject dropSound;
+    private AudioSource audioSource;
+    void Start()
+    {
+         audioSource = dropSound.GetComponent<AudioSource>();
+    }
+
     public void RemoveItem()
     {
         InvManager InvManager= GameObject.FindObjectOfType<InvManager>();
@@ -21,6 +28,7 @@ public class ItemDrop : MonoBehaviour
             
             if(it.itemName==PlayerPrefs.GetString("ClickedItem"))
             {
+                audioSource.Play();
                 InvManager.Items.Remove(it);
                 inv.SetActive(false);
             }

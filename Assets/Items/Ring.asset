@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 5
   itemName: Ring
   icon: {fileID: 21300000, guid: 01857ea2dabbdc149a571dc4adc6ed62, type: 3}
+  soundItem: {fileID: 8300000, guid: 624d652f049f3024fa56840a0fd005a6, type: 3}
