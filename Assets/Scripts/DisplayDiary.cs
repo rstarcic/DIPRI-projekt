@@ -12,11 +12,17 @@ public class DisplayDiary : MonoBehaviour
     public Button previousButton; 
     public Button nextButton;
     public Button closeButton;
-
     private int currentPageIndex = 0;
+    private AudioSource audioSource;
+    public AudioClip pageTurnSound;
+    private AudioSource backgroundAudioSource;
+    public AudioClip backgroundAudio;
 
     void Start()
     {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        backgroundAudioSource = gameObject.AddComponent<AudioSource>();
+
         if (diaryPages.Count > 0)
         {
             ShowPage(currentPageIndex);
@@ -24,10 +30,16 @@ public class DisplayDiary : MonoBehaviour
         previousButton.onClick.AddListener(ShowPreviousPage);
         nextButton.onClick.AddListener(ShowNextPage);
         closeButton.onClick.AddListener(CloseDiary);
+
+        if (diaryCanvas.activeSelf)
+        {
+            PlayBackgroundAudio();
+        }
     }
 
     void ShowPreviousPage()
     {
+        PlayPageTurnSound();
         currentPageIndex--;
         if (currentPageIndex < 0)
             currentPageIndex = diaryPages.Count - 1; 
@@ -36,6 +48,7 @@ public class DisplayDiary : MonoBehaviour
 
     void ShowNextPage()
     {
+        PlayPageTurnSound();
         currentPageIndex++;
         if (currentPageIndex >= diaryPages.Count)
             currentPageIndex = 0; 
@@ -52,5 +65,30 @@ public class DisplayDiary : MonoBehaviour
     public void CloseDiary()
     {
         diaryCanvas.SetActive(false);
+        StopBackgroundAudio();
+    }
+    void PlayPageTurnSound()
+    {
+        if (pageTurnSound != null)
+        {
+            audioSource.PlayOneShot(pageTurnSound);
+        }
+    }
+
+    void PlayBackgroundAudio()
+    {
+        if (backgroundAudio != null)
+        {
+            backgroundAudioSource.clip = backgroundAudio;
+            backgroundAudioSource.Play();
+        }
+    }
+
+    void StopBackgroundAudio()
+    {
+        if (backgroundAudioSource.isPlaying)
+        {
+            backgroundAudioSource.Stop();
+        }
     }
 }

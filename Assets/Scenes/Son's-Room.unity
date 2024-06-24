@@ -3643,7 +3643,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3737,8 +3737,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.29671454, y: 0.29414213, z: 0.24489152}
-  m_Center: {x: 0.46502328, y: -0.0029114827, z: 0.0076090284}
+  m_Size: {x: 0.1847233, y: 0.2088653, z: 0.0746236}
+  m_Center: {x: -0.007785328, y: 0.013102137, z: -0.01484518}
 --- !u!114 &1964629812
 MonoBehaviour:
   m_ObjectHideFlags: 0
