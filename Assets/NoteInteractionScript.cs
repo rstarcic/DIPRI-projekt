@@ -10,6 +10,9 @@ public class NoteInteractionScript : MonoBehaviour
     public Animator doorAnimator;
     public TextMeshProUGUI messageText;
     private float messageDuration = 3.0f;
+    public AudioSource audioSource;
+    public AudioClip clip;
+
 
     void Start()
     {
@@ -35,6 +38,7 @@ public class NoteInteractionScript : MonoBehaviour
             picture.SetActive(true);
             InvManager.Remove(7);
             doorAnimator.SetTrigger("Open");
+            audioSource.PlayOneShot(clip);
         }
         else
         {
