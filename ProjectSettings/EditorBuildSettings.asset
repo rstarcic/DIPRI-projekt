@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/KitchenLivingRoom.unity
     guid: dadd1c45d3788bd4997c26e38e32ed8e
   - enabled: 1
-    path: Assets/Scenes/Hallway 2nd floor.unity
-    guid: 60f100b3a67db48ecb87d815cee599d8
+    path: Assets/Scenes/Hallway 2nd Floor.unity
+    guid: 2e04719083d5f5d428e05ecd0d3d96c9
   - enabled: 1
     path: Assets/Scenes/Son's-Room.unity
     guid: a5907ffdd862e4143b6b39b754f36452
