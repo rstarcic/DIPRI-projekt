@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class FinalCutsceneTrigger : MonoBehaviour
 {
@@ -26,5 +28,11 @@ public class FinalCutsceneTrigger : MonoBehaviour
             }
         // Activate the cutscene GameObject after the delay
         _cutscene.SetActive(true);
+            StartCoroutine(BackToMainMenu(51.0f));
+    }
+    private IEnumerator BackToMainMenu(float delay) {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(0);
+
     }
 }
